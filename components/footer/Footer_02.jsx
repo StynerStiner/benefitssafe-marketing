@@ -118,7 +118,7 @@ const Footer_02 = () => {
                   <ul className='flex flex-col gap-y-[10px] capitalize'>
                     <li>
                       <a
-                        href='https://app.benefitssafe.com/auth/register'
+                        href='https://app.benefitssafe.com/auth/register?plan=community'
                         className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         Signup

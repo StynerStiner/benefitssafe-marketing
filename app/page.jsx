@@ -41,7 +41,7 @@ function Home() {
                     </p>
                     <a
                       rel='noopener noreferrer'
-                      href='https://app.benefitssafe.com/auth/register'
+                      href='https://app.benefitssafe.com/auth/register?plan=community'
                       className='jos button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none bg-colorViolet py-[18px] text-white after:bg-colorViolet hover:text-white'
                     >
                       Start Free Trial
@@ -506,7 +506,7 @@ function Home() {
                   data-jos_animation='fade'
                 >
                   <a
-                    href='https://app.benefitssafe.com/auth/register'
+                    href='https://app.benefitssafe.com/auth/register?plan=community'
                     className='button rounded-[50px] border-2 border-colorViolet bg-colorViolet py-4 text-center text-white after:bg-colorViolet hover:border-colorViolet hover:text-white'
                   >
                     Start Free Trial

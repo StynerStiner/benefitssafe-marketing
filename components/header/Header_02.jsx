@@ -32,7 +32,7 @@ const Header_02 = () => {
               Login
             </a>
             <a
-              href='https://app.benefitssafe.com/auth/register'
+              href='https://app.benefitssafe.com/auth/register?plan=community'
               className='button hidden rounded-[50px] border-none bg-colorViolet text-white after:bg-colorViolet hover:border-colorViolet hover:text-white lg:inline-block'
             >
               Sign up free
