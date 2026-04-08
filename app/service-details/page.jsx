@@ -196,10 +196,7 @@ function ServiceDetails() {
 								</button>
 								{/* Video Play Button */}
 							</div>
-							<FsLightbox
-								toggler={toggler}
-								sources={["https://www.youtube.com/watch?v=3nQNiWdeH2Q"]}
-							/>
+							{/* Video lightbox removed — will add BenefitsSafe video later */}
 							{/* Funfacct Left Block */}
 							{/* Funfact Right Block */}
 							<div className="self-center px-6 py-16 sm:py-20 md:px-16 xl:px-10 xl:py-24 xxl:py-32 xxl:pl-16 xxl:pr-28">

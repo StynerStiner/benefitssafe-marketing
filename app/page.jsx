@@ -1040,16 +1040,6 @@ function Home() {
                   height={784}
                   className='h-80 w-full object-cover object-center lg:h-[35rem] xl:h-full'
                 />
-                <Link
-                  rel='noopener noreferrer'
-                  href='https://www.youtube.com/watch?v=3nQNiWdeH2Q'
-                  className='absolute left-1/2 top-1/2 z-[1] -translate-x-1/2 -translate-y-1/2'
-                >
-                  <div className='relative flex h-[120px] w-[120px] items-center justify-center rounded-full border-[3px] border-white text-lg font-bold text-white backdrop-blur-[2px] transition-all duration-300 hover:bg-colorViolet hover:text-white'>
-                    Play
-                    <div className='absolute -z-[1] h-[110%] w-[110%] animate-[ping_1.5s_ease-in-out_infinite] rounded-full bg-white opacity-30'></div>
-                  </div>
-                </Link>
               </div>
               {/* Funfact Right Block */}
               <div className='self-center px-6 py-16 sm:py-20 md:px-16 xl:px-10 xl:py-24 xxl:py-32 xxl:pl-16 xxl:pr-28'>
