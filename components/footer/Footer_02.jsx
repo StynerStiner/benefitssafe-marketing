@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { getLoginUrl, getRegisterUrl } from '@/lib/urls';
 
 const Footer_02 = () => {
   return (
@@ -118,20 +117,20 @@ const Footer_02 = () => {
                   {/* Footer Navbar */}
                   <ul className='flex flex-col gap-y-[10px] capitalize'>
                     <li>
-                      <Link
-                        href={getRegisterUrl()}
+                      <a
+                        href='https://app.benefitssafe.com/auth/register'
                         className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         Signup
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link
-                        href={getLoginUrl()}
+                      <a
+                        href='https://app.benefitssafe.com/auth/login'
                         className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         Login
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>

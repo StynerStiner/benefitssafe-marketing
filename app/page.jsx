@@ -8,7 +8,7 @@ import useAccordion from '@/components/hooks/useAccordion';
 import useTabs from '@/components/hooks/useTabs';
 import Header_02 from '@/components/header/Header_02';
 import Footer_02 from '@/components/footer/Footer_02';
-import { getRegisterUrl } from '@/lib/urls';
+
 
 function Home() {
   const [activeIndex, handleAccordion] = useAccordion(0);
@@ -39,9 +39,9 @@ function Home() {
                       beneficiaries losing their SSI, Medi-Cal, or CalFresh
                       benefits.
                     </p>
-                    <Link
+                    <a
                       rel='noopener noreferrer'
-                      href={getRegisterUrl()}
+                      href='https://app.benefitssafe.com/auth/register'
                       className='jos button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none bg-colorViolet py-[18px] text-white after:bg-colorViolet hover:text-white'
                     >
                       Start Free Trial
@@ -51,7 +51,7 @@ function Home() {
                         width={24}
                         height={24}
                       />
-                    </Link>
+                    </a>
                   </div>
                   {/* Hero Content */}
                   {/* Hero Image */}
@@ -505,12 +505,12 @@ function Home() {
                   className='jos flex w-full flex-col justify-center gap-3 sm:w-auto sm:flex-row sm:flex-wrap sm:gap-6'
                   data-jos_animation='fade'
                 >
-                  <Link
-                    href={getRegisterUrl()}
+                  <a
+                    href='https://app.benefitssafe.com/auth/register'
                     className='button rounded-[50px] border-2 border-colorViolet bg-colorViolet py-4 text-center text-white after:bg-colorViolet hover:border-colorViolet hover:text-white'
                   >
                     Start Free Trial
-                  </Link>
+                  </a>
                   <Link
                     href='/services'
                     className='button rounded-[50px] border-2 border-white bg-transparent py-4 text-center text-white after:bg-colorViolet hover:border-colorViolet hover:text-white'
@@ -1539,12 +1539,12 @@ function Home() {
                         <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                           For small nonprofits and fiscal sponsors running their first restricted-fund grants.
                         </p>
-                        <Link
-                          href={getRegisterUrl('seed')}
+                        <a
+                          href='https://app.benefitssafe.com/auth/register?plan=seed'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
-                        </Link>
+                        </a>
                       </li>
                       <li
                         className='jos group flex flex-col rounded-[10px] bg-white p-10 shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] transition-all duration-300 ease-linear hover:bg-colorCodGray'
@@ -1565,12 +1565,12 @@ function Home() {
                         <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                           Growing organizations that need compliance automation, virtual cards, and vendor onboarding.
                         </p>
-                        <Link
-                          href={getRegisterUrl('core')}
+                        <a
+                          href='https://app.benefitssafe.com/auth/register?plan=core'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
-                        </Link>
+                        </a>
                       </li>
                       <li
                         className='jos group flex flex-col rounded-[10px] bg-white p-10 shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] transition-all duration-300 ease-linear hover:bg-colorCodGray'
@@ -1591,12 +1591,12 @@ function Home() {
                         <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                           Larger networks and statewide sponsors managing multi-grant, multi-org compliance.
                         </p>
-                        <Link
-                          href={getRegisterUrl('network')}
+                        <a
+                          href='https://app.benefitssafe.com/auth/register?plan=network'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   )}
@@ -1624,12 +1624,12 @@ function Home() {
                         <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                           For small nonprofits and fiscal sponsors running their first restricted-fund grants.
                         </p>
-                        <Link
-                          href={getRegisterUrl('seed')}
+                        <a
+                          href='https://app.benefitssafe.com/auth/register?plan=seed'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
-                        </Link>
+                        </a>
                       </li>
                       <li
                         className='jos group flex flex-col rounded-[10px] bg-white p-10 shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] transition-all duration-300 ease-linear hover:bg-colorCodGray'
@@ -1650,12 +1650,12 @@ function Home() {
                         <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                           Growing organizations that need compliance automation, virtual cards, and vendor onboarding.
                         </p>
-                        <Link
-                          href={getRegisterUrl('core')}
+                        <a
+                          href='https://app.benefitssafe.com/auth/register?plan=core'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
-                        </Link>
+                        </a>
                       </li>
                       <li
                         className='jos group flex flex-col rounded-[10px] bg-white p-10 shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] transition-all duration-300 ease-linear hover:bg-colorCodGray'
@@ -1676,12 +1676,12 @@ function Home() {
                         <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
                           Larger networks and statewide sponsors managing multi-grant, multi-org compliance.
                         </p>
-                        <Link
-                          href={getRegisterUrl('network')}
+                        <a
+                          href='https://app.benefitssafe.com/auth/register?plan=network'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   )}

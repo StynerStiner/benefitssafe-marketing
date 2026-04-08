@@ -5,7 +5,6 @@ import useAccordion from "@/components/hooks/useAccordion";
 import useTabs from "@/components/hooks/useTabs";
 import Image from "next/image";
 import Link from "next/link";
-import { getRegisterUrl } from '@/lib/urls';
 
 function Pricing() {
 	const [activeTab, handleTab] = useTabs();
@@ -159,12 +158,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('community')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=community"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
@@ -269,12 +268,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('seed')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=seed"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
@@ -398,12 +397,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('core')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=core"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
@@ -546,12 +545,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('network')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=network"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 										</ul>
@@ -645,12 +644,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('community')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=community"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
@@ -753,12 +752,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('seed')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=seed"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
@@ -880,12 +879,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('core')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=core"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
@@ -1026,12 +1025,12 @@ function Pricing() {
 													</li>
 												</ul>
 												{/* Price Info List */}
-												<Link
-													href={getRegisterUrl('network')}
+												<a
+													href="https://app.benefitssafe.com/auth/register?plan=network"
 													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
 													Start Free Trial
-												</Link>
+												</a>
 											</li>
 											{/* Price Item */}
 										</ul>
