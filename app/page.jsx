@@ -1540,7 +1540,7 @@ function Home() {
                           For small nonprofits and fiscal sponsors running their first restricted-fund grants.
                         </p>
                         <a
-                          href='https://app.benefitssafe.com/auth/register?plan=seed'
+                          href='https://app.benefitssafe.com/api/billing/checkout-direct?plan=seed'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
@@ -1566,7 +1566,7 @@ function Home() {
                           Growing organizations that need compliance automation, virtual cards, and vendor onboarding.
                         </p>
                         <a
-                          href='https://app.benefitssafe.com/auth/register?plan=core'
+                          href='https://app.benefitssafe.com/api/billing/checkout-direct?plan=core'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
@@ -1592,7 +1592,7 @@ function Home() {
                           Larger networks and statewide sponsors managing multi-grant, multi-org compliance.
                         </p>
                         <a
-                          href='https://app.benefitssafe.com/auth/register?plan=network'
+                          href='https://app.benefitssafe.com/api/billing/checkout-direct?plan=network'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
@@ -1625,7 +1625,7 @@ function Home() {
                           For small nonprofits and fiscal sponsors running their first restricted-fund grants.
                         </p>
                         <a
-                          href='https://app.benefitssafe.com/auth/register?plan=seed'
+                          href='https://app.benefitssafe.com/api/billing/checkout-direct?plan=seed'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
@@ -1651,7 +1651,7 @@ function Home() {
                           Growing organizations that need compliance automation, virtual cards, and vendor onboarding.
                         </p>
                         <a
-                          href='https://app.benefitssafe.com/auth/register?plan=core'
+                          href='https://app.benefitssafe.com/api/billing/checkout-direct?plan=core'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
@@ -1677,7 +1677,7 @@ function Home() {
                           Larger networks and statewide sponsors managing multi-grant, multi-org compliance.
                         </p>
                         <a
-                          href='https://app.benefitssafe.com/auth/register?plan=network'
+                          href='https://app.benefitssafe.com/api/billing/checkout-direct?plan=network'
                           className='button mt-auto block rounded-[50px] border-2 border-colorCodGray bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white'
                         >
                           Start Free Trial
