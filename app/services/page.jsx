@@ -1,6 +1,6 @@
 "use client";
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import useAccordion from "@/components/hooks/useAccordion";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +10,7 @@ function Services() {
 
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -68,14 +68,15 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Resource Flexibility
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										This is an excellent option for people &amp; small
-										businesses who are starting out.
+										Issue Visa debit cards with built-in spending controls.
+										Block merchants by category, set spending limits, and
+										enforce curfews from one dashboard.
 									</p>
 									<Link
 										href="/service-details"
@@ -117,14 +118,15 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Managed Services
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										This is an excellent option for people &amp; small
-										businesses who are starting out.
+										Track restricted funds across multiple grants with
+										real-time balance monitoring. Every dollar is scoped to
+										its grant, category, and beneficiary.
 									</p>
 									<Link
 										href="/service-details"
@@ -168,14 +170,15 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Web-Based Access
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										This is an excellent option for people &amp; small
-										businesses who are starting out.
+										Five autonomous agents monitor your beneficiaries 24/7.
+										Threshold warnings, transaction compliance, and funder
+										reports generated automatically.
 									</p>
 									<Link
 										href="/service-details"
@@ -217,14 +220,15 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Resource Flexibility
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										This is an excellent option for people &amp; small
-										businesses who are starting out.
+										Beneficiaries submit expenses, the compliance engine
+										auto-classifies risk, and admins approve or reject with
+										one click. Full audit trail included.
 									</p>
 									<Link
 										href="/service-details"
@@ -266,7 +270,7 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Anomaly Detection
 										</Link>
@@ -315,14 +319,15 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Predictive Analytics
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										Solutions that use AI to predict future trends and outcomes,
-										such as demand forecastin.
+										Auto-generate grant disbursement reports for funders.
+										Weekly summaries, spending breakdowns, and compliance
+										snapshots ready to send.
 									</p>
 									<Link
 										href="/service-details"
@@ -366,14 +371,15 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Speech Recognition
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										Speech recognition services convert spoken language into
-										text and accessibility.
+										Onboard beneficiaries with benefit program tracking,
+										eligibility screening, and OFAC compliance checks. Each
+										beneficiary sees only their own data.
 									</p>
 									<Link
 										href="/service-details"
@@ -415,14 +421,15 @@ function Services() {
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
 											href="/service-details"
-											className="hover:text-colorOrangyRed"
+											className="hover:text-colorViolet"
 										>
 											Computer Vision
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										Computer vision services use AI to interpret and process
-										visual information.
+										Every action is logged in an immutable audit trail.
+										Expense approvals, card issuances, policy changes, and
+										login events are permanently recorded.
 									</p>
 									<Link
 										href="/service-details"
@@ -480,7 +487,7 @@ function Services() {
 										</p>
 										<Link
 											href="/faq-1"
-											className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+											className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 										>
 											Ask you questions
 										</Link>
@@ -854,7 +861,7 @@ function Services() {
 				</section>
 				{/*...::: Testimonial Section Start :::... */}
 			</main>
-			<Footer_01 />
+			<Footer_02 />
 		</>
 	);
 }

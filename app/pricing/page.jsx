@@ -1,10 +1,11 @@
 "use client";
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import useAccordion from "@/components/hooks/useAccordion";
 import useTabs from "@/components/hooks/useTabs";
 import Image from "next/image";
 import Link from "next/link";
+import { getRegisterUrl } from '@/lib/urls';
 
 function Pricing() {
 	const [activeTab, handleTab] = useTabs();
@@ -12,7 +13,7 @@ function Pricing() {
 	const [activeIndex, handleAccordion] = useAccordion();
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -21,13 +22,7 @@ function Pricing() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">Pricing Plans</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>Pricing Plans</li>
-								</ul>
+								<h1 className="breadcrumb-title">Pricing that scales with your mission</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -44,7 +39,7 @@ function Pricing() {
 							{/* Section Content Block */}
 							<div className="jos mb-10 text-center lg:mb-12">
 								<div className="mx-auto max-w-md lg:max-w-3xl xl:max-w-[950px]">
-									<h2>Find a flexible plan that fits your business</h2>
+									<h2>Community is free forever. Paid plans start at $49.</h2>
 								</div>
 							</div>
 							{/* Section Content Block */}
@@ -83,17 +78,17 @@ function Pricing() {
 										>
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Free
+													Community
 												</h3>
 												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													1 member
+													10 beneficiaries, 5 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
 													$0
 													<span className="text-lg font-semibold">
@@ -101,8 +96,7 @@ function Pricing() {
 													</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Ideal for individuals person and small businesses just
-													getting started.
+													Free forever. 10 beneficiaries, 5 grants, daily SentinelLayer monitoring, CSV export.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -116,14 +110,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														Daily SentinelLayer monitoring
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -135,14 +129,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														Real-time MCC blocking
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -154,47 +148,46 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														CSV export
 													</li>
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('community')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Beginner
-												</h3>
-												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Up to 10 members
+													Seed
+															</h3>
+															<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+																50 beneficiaries, 15 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
-													$25
+													$49
 													<span className="text-lg font-semibold">
 														/Per month
 													</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													This is an excellent option for people &amp; small
-													businesses who are starting out.
+													For small nonprofits running their first restricted-fund grants with Gmail automation.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -208,14 +201,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														50 beneficiaries, 15 grants
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -227,14 +220,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														3 staff expense cards
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -246,14 +239,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														Gmail automation + PDF export
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -265,7 +258,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -277,35 +270,34 @@ function Pricing() {
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('seed')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Starter
-												</h3>
-												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Up to 50 members
+													Core
+															</h3>
+															<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+																200 beneficiaries, 50 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
-													$89
+													$99
 													<span className="text-lg font-semibold">
 														/Per month
 													</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													This plan is suitable for e-commerce stores as well as
-													professional blogs.
+													Growing orgs that need full compliance automation, funder-ready reports, and POMS checks.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -319,14 +311,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														Full Compliance Monitor (6hr scans)
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -338,14 +330,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														10 staff cards, POMS checker
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -357,14 +349,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														Funder-ready reports
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -376,7 +368,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -395,7 +387,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -407,26 +399,26 @@ function Pricing() {
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('core')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Pro
-												</h3>
-												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Up to 100 members
+													Network
+															</h3>
+															<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+																500 beneficiaries, 100 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
 													$199
 													<span className="text-lg font-semibold">
@@ -434,8 +426,7 @@ function Pricing() {
 													</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Ideal for handling complicated projects
-													enterprise-level projects, and websites.
+													Larger networks managing multi-grant compliance with all SentinelLayer agents and API access.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -449,14 +440,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														All SentinelLayer agents
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -468,14 +459,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														50 staff cards + API access
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -487,14 +478,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														Priority support
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -506,7 +497,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -525,7 +516,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -544,7 +535,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -556,10 +547,10 @@ function Pricing() {
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('network')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
@@ -575,24 +566,23 @@ function Pricing() {
 										>
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Free
+													Community
 												</h3>
 												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													1 member
+													10 beneficiaries, 5 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
 													$0
 													<span className="text-lg font-semibold">/Annual</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Ideal for individuals person and small businesses just
-													getting started.
+													Free forever. 10 beneficiaries, 5 grants, daily SentinelLayer monitoring, CSV export.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -606,14 +596,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														Daily SentinelLayer monitoring
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -625,14 +615,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														Real-time MCC blocking
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -644,45 +634,44 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														CSV export
 													</li>
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('community')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Beginner
-												</h3>
-												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Up to 10 members
+													Seed
+															</h3>
+															<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+																50 beneficiaries, 15 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
-													$240
+													$470
 													<span className="text-lg font-semibold">/Annual</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													This is an excellent option for people &amp; small
-													businesses who are starting out.
+													For small nonprofits running their first restricted-fund grants with Gmail automation.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -696,14 +685,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														50 beneficiaries, 15 grants
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -715,14 +704,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														3 staff expense cards
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -734,14 +723,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														Gmail automation + PDF export
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -753,7 +742,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -765,33 +754,32 @@ function Pricing() {
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('seed')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Starter
-												</h3>
-												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Up to 50 members
+													Core
+															</h3>
+															<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+																200 beneficiaries, 50 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
-													$960
+													$950
 													<span className="text-lg font-semibold">/Annual</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													This plan is suitable for e-commerce stores as well as
-													professional blogs.
+													Growing orgs that need full compliance automation, funder-ready reports, and POMS checks.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -805,14 +793,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														Full Compliance Monitor (6hr scans)
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -824,14 +812,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														10 staff cards, POMS checker
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -843,14 +831,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														Funder-ready reports
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -862,7 +850,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -881,7 +869,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -893,33 +881,32 @@ function Pricing() {
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('core')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
 											{/* Price Item */}
 											<li
-												className="jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-[30px] transition-all duration-300 ease-linear hover:bg-black"
+												className="jos group flex flex-col rounded-[10px] bg-white shadow-[0_4px_60px_0_rgba(0,0,0,0.08)] p-[30px] transition-all duration-300 ease-linear hover:bg-colorCodGray"
 												data-jos_animation="flip"
 												data-jos_delay={0}
 											>
 												<h3 className="flex flex-wrap font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Pro
-												</h3>
-												<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Up to 100 members
+													Network
+															</h3>
+															<span className="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+																500 beneficiaries, 100 grants
 												</span>
-												<div className="my-5 h-[1px] w-full bg-[#DBD6CF]" />
+												<div className="my-5 h-[1px] w-full bg-[#EAEDF0]" />
 												<h4 className="mb-4 flex flex-col font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]">
-													$1800
+													$1910
 													<span className="text-lg font-semibold">/Annual</span>
 												</h4>
 												<p className="mb-6 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
-													Ideal for handling complicated projects
-													enterprise-level projects, and websites.
+													Larger networks managing multi-grant compliance with all SentinelLayer agents and API access.
 												</p>
 												{/* Price Info List */}
 												<ul className="mb-10 flex flex-col gap-y-3">
@@ -933,14 +920,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														AI-Ready Data Prep
+														All SentinelLayer agents
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -952,14 +939,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Feature Engineering
+														50 staff cards + API access
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -971,14 +958,14 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Classification Models
+														Priority support
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -990,7 +977,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -1009,7 +996,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -1028,7 +1015,7 @@ function Pricing() {
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1-violet/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -1040,10 +1027,10 @@ function Pricing() {
 												</ul>
 												{/* Price Info List */}
 												<Link
-													href="/pricing"
-													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white"
+													href={getRegisterUrl('network')}
+													className="button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorViolet hover:border-colorViolet hover:text-black group-hover:border-colorViolet group-hover:text-white"
 												>
-													Choose the plan
+													Start Free Trial
 												</Link>
 											</li>
 											{/* Price Item */}
@@ -1074,22 +1061,19 @@ function Pricing() {
 									{/* Section Content Block */}
 									<div className="mb-8 text-left lg:mb-16 xl:mb-6">
 										<div className="mx-auto md:mx-0 md:max-w-none">
-											<h2>Freely ask us for more information</h2>
+											<h2>Have questions about our pricing?</h2>
 										</div>
 									</div>
 									{/* Section Content Block */}
 									<div className="text-lg leading-[1.4] lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											Our AI SaaS solutions can be quickly deployed, enabling
-											users to start benefiting from AI capabilities without
-											lengthy setup and development times in fast-paced
-											industries.
+											Compare plans, ask about custom Enterprise pricing, or get help choosing the right tier for your nonprofit. We respond within one business day.
 										</p>
 										<Link
-											href="/faq-1"
-											className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+											href="/faq"
+											className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 										>
-											Ask you questions
+											Ask your questions
 										</Link>
 									</div>
 								</div>
@@ -1104,12 +1088,12 @@ function Pricing() {
 										{/* Accordion items */}
 										<li
 											onClick={() => handleAccordion(0)}
-											className={`accordion-item border-b-[1px] border-[#DBD6CF] pb-6 pt-6 first:pt-0 last:border-b-0 last:pb-0 ${
+											className={`accordion-item border-b-[1px] border-[#EAEDF0] pb-6 pt-6 first:pt-0 last:border-b-0 last:pb-0 ${
 												activeIndex === 0 ? "active" : ""
 											}`}
 										>
 											<div className="accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]">
-												<p>How do I start AI SaaS?</p>
+												<p>What happens after my 14-day trial?</p>
 												<div className="accordion-icon">
 													<Image
 														src="/assets/img_placeholder/plus.svg"
@@ -1121,9 +1105,7 @@ function Pricing() {
 											</div>
 											<div className="accordion-content disappear translate-y-3 text-lg leading-[1.66] text-[#2C2C2C]">
 												<p>
-													Go to the our official website and require users to
-													create an account. You ll need to provide some basic
-													information and agree to our terms and conditions.
+													You choose a paid plan or automatically move to our free Community tier (10 beneficiaries, daily monitoring). You never lose access to basic protection.
 												</p>
 											</div>
 										</li>
@@ -1131,12 +1113,12 @@ function Pricing() {
 										{/* Accordion items */}
 										<li
 											onClick={() => handleAccordion(1)}
-											className={`accordion-item border-b-[1px] border-[#DBD6CF] pb-6 pt-6 first:pt-0 last:border-b-0 last:pb-0 ${
+											className={`accordion-item border-b-[1px] border-[#EAEDF0] pb-6 pt-6 first:pt-0 last:border-b-0 last:pb-0 ${
 												activeIndex === 1 ? "active" : ""
 											}`}
 										>
 											<div className="accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]">
-												<p>Can I customize AI SaaS solutions?</p>
+												<p>Can I switch plans later?</p>
 												<div className="accordion-icon">
 													<Image
 														src="/assets/img_placeholder/plus.svg"
@@ -1148,9 +1130,7 @@ function Pricing() {
 											</div>
 											<div className="accordion-content disappear translate-y-3 text-lg leading-[1.66] text-[#2C2C2C]">
 												<p>
-													Go to the our official website and require users to
-													create an account. You ll need to provide some basic
-													information and agree to our terms and conditions.
+													Yes. Upgrade, downgrade, or switch annual/monthly anytime from your billing dashboard. Annual plans include roughly 4 months free vs monthly.
 												</p>
 											</div>
 										</li>
@@ -1158,12 +1138,12 @@ function Pricing() {
 										{/* Accordion items */}
 										<li
 											onClick={() => handleAccordion(2)}
-											className={`accordion-item border-b-[1px] border-[#DBD6CF] pb-6 pt-6 first:pt-0 last:border-b-0 last:pb-0 ${
+											className={`accordion-item border-b-[1px] border-[#EAEDF0] pb-6 pt-6 first:pt-0 last:border-b-0 last:pb-0 ${
 												activeIndex === 2 ? "active" : ""
 											}`}
 										>
 											<div className="accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]">
-												<p>How can AI benefit my business?</p>
+												<p>Do you offer Enterprise pricing?</p>
 												<div className="accordion-icon">
 													<Image
 														src="/assets/img_placeholder/plus.svg"
@@ -1175,9 +1155,7 @@ function Pricing() {
 											</div>
 											<div className="accordion-content disappear translate-y-3 text-lg leading-[1.66] text-[#2C2C2C]">
 												<p>
-													Go to the our official website and require users to
-													create an account. You ll need to provide some basic
-													information and agree to our terms and conditions.
+													Yes. Enterprise starts at $399/month with unlimited everything, white-label options, a dedicated account manager, and custom integrations. Contact us to discuss.
 												</p>
 											</div>
 										</li>
@@ -1192,7 +1170,7 @@ function Pricing() {
 				</section>
 				{/*...::: FAQ Section End :::... */}
 			</main>
-			<Footer_01 />
+			<Footer_02 />
 		</>
 	);
 }

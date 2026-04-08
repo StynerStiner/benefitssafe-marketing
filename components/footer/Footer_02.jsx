@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { getLoginUrl, getRegisterUrl } from '@/lib/urls';
 
 const Footer_02 = () => {
   return (
@@ -15,7 +16,7 @@ const Footer_02 = () => {
               {/* Section Content Block */}
               <div className='mx-auto mb-10 text-center md:mb-16 md:max-w-lg lg:mb-20 lg:max-w-xl xl:max-w-3xl'>
                 <h2 className='font-clashDisplay text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[75px]'>
-                  Let s get started and enjoy the power of AI
+                  Ready to protect benefits and disburse safely?
                 </h2>
               </div>
               {/* Section Content Block */}
@@ -26,15 +27,15 @@ const Footer_02 = () => {
                     type='email'
                     name='newsletter-email'
                     id='newsletter-email'
-                    placeholder='Enter your email'
+                    placeholder='Enter your work email'
                     className='p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-white bg-transparent px-[24px] pr-20 outline-none sm:pr-48'
                     required=''
                   />
                   <button
                     type='submit'
-                    className='absolute right-[5px] top-[50%] inline-flex h-[50px] -translate-y-[50%] items-center gap-x-[10px] rounded-[50px] bg-colorViolet px-6 transition-all duration-300 hover:bg-colorOrangyRed'
+                    className='absolute right-[5px] top-[50%] inline-flex h-[50px] -translate-y-[50%] items-center gap-x-[10px] rounded-[50px] bg-colorViolet px-6 transition-all duration-300 hover:bg-colorViolet'
                   >
-                    <span className='hidden sm:inline-block'>Get Started</span>
+                    <span className='hidden sm:inline-block'>Start Free Trial</span>
                     <Image
                       src='/assets/img_placeholder/th-1/arrow-right-large.svg'
                       alt='newsletter'
@@ -59,7 +60,7 @@ const Footer_02 = () => {
                 <div className='flex flex-col gap-y-6'>
                   {/* Footer Title */}
                   <h4 className='text-[21px] font-semibold capitalize text-white'>
-                    Primary Pages
+                    Product
                   </h4>
                   {/* Footer Title */}
                   {/* Footer Navbar */}
@@ -67,7 +68,7 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         href='/'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         Home
                       </Link>
@@ -75,7 +76,7 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         href='/about'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         About Us
                       </Link>
@@ -83,15 +84,15 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         href='/services'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
-                        Services
+                        Features
                       </Link>
                     </li>
                     <li>
                       <Link
                         href='/pricing'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         pricing
                       </Link>
@@ -99,7 +100,7 @@ const Footer_02 = () => {
                     <li>
                       <Link
                         href='/contact'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         Contact
                       </Link>
@@ -111,41 +112,25 @@ const Footer_02 = () => {
                 <div className='flex flex-col gap-y-6'>
                   {/* Footer Title */}
                   <h4 className='text-[21px] font-semibold capitalize text-white'>
-                    Utility pages
+                    Get Started
                   </h4>
                   {/* Footer Title */}
                   {/* Footer Navbar */}
                   <ul className='flex flex-col gap-y-[10px] capitalize'>
                     <li>
                       <Link
-                        href='/signup'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        href={getRegisterUrl()}
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         Signup
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href='/login'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        href={getLoginUrl()}
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
                         Login
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href='/not-found'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        404 Not found
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href='/reset-password'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
-                      >
-                        Password Reset
                       </Link>
                     </li>
                   </ul>
@@ -155,41 +140,41 @@ const Footer_02 = () => {
                 <div className='flex flex-col gap-y-6'>
                   {/* Footer Title */}
                   <h4 className='text-[21px] font-semibold capitalize text-white'>
-                    Utility pages
+                    Company
                   </h4>
                   {/* Footer Title */}
                   {/* Footer Navbar */}
                   <ul className='flex flex-col gap-y-[10px] capitalize'>
                     <li>
                       <Link
-                        href='/signup'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        href='/about'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
-                        Signup
+                        About
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href='/login'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        href='/team'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
-                        Login
+                        Team
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href='/not-found'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        href='/blog'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
-                        404 Not found
+                        Blog
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href='/reset-password'
-                        className='transition-all duration-300 ease-linear hover:text-colorOrangyRed'
+                        href='/faq'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >
-                        Password Reset
+                        FAQ
                       </Link>
                     </li>
                   </ul>
@@ -290,26 +275,27 @@ const Footer_02 = () => {
           <div>
             <div className='global-container'>
               <div className='flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left'>
-                <Link href='/'>
-                  <Image
-                    src='/assets/img_placeholder/logo-light.png'
-                    alt='logo-light'
-                    width={111}
-                    height={23}
-                  />
+                <Link href='/' className='flex items-center gap-2'>
+                  <span className='relative block w-[28px] h-[28px]'>
+                    <Image
+                      src='/assets/img_placeholder/benefitssafe-logo/benefitssafe-logo-blue.webp'
+                      alt='BenefitsSafe'
+                      fill
+                      className='object-contain'
+                    />
+                  </span>
+                  <span className='font-bold text-white text-lg tracking-tight'>BenefitsSafe</span>
                 </Link>
                 <p>
-                  © Copyright {new Date().getFullYear()}, All Rights Reserved.
-                  Built by{' '}
+                  &copy; {new Date().getFullYear()} BenefitsSafe. All rights reserved. Built by{' '}
                   <Link
                     href='https://www.styner.dev/'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='transition-all duration-300 hover:text-colorOrangyRed'
+                    className='transition-all duration-300 hover:text-colorViolet'
                   >
                     StynerDev
-                  </Link>{' '}
-                  | Full-Stack Developer | Web2 + Web3
+                  </Link>
                 </p>
               </div>
             </div>
@@ -318,7 +304,7 @@ const Footer_02 = () => {
         </div>
         {/* Section Container */}
         {/* Background Gradient */}
-        <div className='absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#5636C7] to-[#5028DD] blur-[250px]'></div>
+        <div className='absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#1D4ED8] to-[#2563EB] blur-[250px]'></div>
       </div>
     </footer>
   );

@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import localFont from 'next/font/local';
 import { Inter } from 'next/font/google';
 import JOS from 'jos-animation';
+import ScrollToTop from '@/components/shared/ScrollToTop';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '@/styles/globals.css';
@@ -56,10 +57,25 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang='en'>
+      <head>
+        <title>BenefitsSafe - Grant Disbursement Platform</title>
+        <meta name='description' content='BenefitsSafe helps nonprofits manage restricted grant funds and issue virtual debit cards — without beneficiaries losing their SSI, Medi-Cal, or CalFresh benefits.' />
+        <link rel='icon' href='/icon.png' type='image/png' />
+        <meta property='og:title' content='BenefitsSafe - Protect Benefits. Disburse Grants. Monitor Compliance.' />
+        <meta property='og:description' content='BenefitsSafe helps nonprofits manage restricted grant funds and issue virtual debit cards — without beneficiaries losing their SSI, Medi-Cal, or CalFresh benefits.' />
+        <meta property='og:image' content='https://benefitssafe.com/opengraph-image.png' />
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://benefitssafe.com' />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:title' content='BenefitsSafe' />
+        <meta name='twitter:description' content='Protect Benefits. Disburse Grants. Monitor Compliance.' />
+        <meta name='twitter:image' content='https://benefitssafe.com/opengraph-image.png' />
+      </head>
       <body
         className={`${DMSans.variable} ${ClashDisplay.variable} ${Raleway.variable} ${SpaceGrotesk.variable} ${inter.variable}`}
       >
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );

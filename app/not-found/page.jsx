@@ -1,11 +1,11 @@
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import Link from "next/link";
 
 function Not_Found() {
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: 404 Section Start :::... */}
@@ -37,7 +37,7 @@ function Not_Found() {
 				</section>
 				{/*...::: 404 Section End :::... */}
 			</main>
-			<Footer_01 />
+			<Footer_02 />
 		</>
 	);
 }

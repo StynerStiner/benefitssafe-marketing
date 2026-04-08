@@ -1,12 +1,12 @@
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import Image from "next/image";
 import Link from "next/link";
 
 function TeamDetails() {
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -15,13 +15,7 @@ function TeamDetails() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">Team Details</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>Team Details</li>
-								</ul>
+								<h1 className="breadcrumb-title">Join the BenefitsSafe Team</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -44,26 +38,18 @@ function TeamDetails() {
 								>
 									{/* Section Content Block */}
 									<div className="mb-6">
-										<h2>Mr. Abraham Maslo</h2>
+										<h2>We&apos;re hiring for roles that protect people</h2>
 									</div>
 									{/* Section Content Block */}
 									<div className="text-lg leading-[1.4] lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											As the Chief AI Officer at BenefitsSafe, Mr. Abraham is at the
-											forefront of harnessing the power of artificial
-											intelligence (AI) to drive innovation and transform our
-											business landscape.
+											We're building technology that protects the most vulnerable members of our communities. Our small, mission-driven team is looking for engineers, compliance specialists, and partnership leads who share that mission.
 										</p>
 										<p className="mb-7 last:mb-0">
-											With a background in AI tech expert, he is leads our AI
-											strategy, overseeing the development and implementation of
-											cutting-edge AI and also machine learning initiatives.
-											With a passion for technology and a track record of
-											successful AI projects in our companys journey.
+											Every engineer we hire will help a nonprofit disburse grants without their beneficiaries losing SSI. Every partnership we form brings compliance-safe infrastructure to more communities. Remote-friendly, competitive compensation, and generous equity for founding team members.
 										</p>
 										<p className="mb-7 font-semibold last:mb-0">
-											Heres an overview of the role and responsibilities of a
-											Chief AI Officer:
+											What we look for in every hire:
 										</p>
 									</div>
 								</div>
@@ -74,11 +60,11 @@ function TeamDetails() {
 									data-jos_animation="fade-right"
 								>
 									{/* Team Member Item */}
-									<div className="rounded-[20px] bg-colorLinenRuffle p-[20px]">
+									<div className="rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]">
 										<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 											<Image
 												src="/assets/img_placeholder/th-1/team-member-img-1.jpg"
-												alt="team-member-img-1"
+												alt="Join BenefitsSafe"
 												width={376}
 												height={400}
 												className="h-full w-full object-cover"
@@ -87,14 +73,14 @@ function TeamDetails() {
 										<div className="mt-5">
 											<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
 												<h4 className="text-[21px] leading-[1.33]">
-													Chief AI Officer
+													Remote &mdash; Oakland HQ
 												</h4>
 												<ul className="mt-auto flex gap-x-[15px]">
 													<li>
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.facebook.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -116,7 +102,7 @@ function TeamDetails() {
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.twitter.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -138,7 +124,7 @@ function TeamDetails() {
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.linkedin.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -160,7 +146,7 @@ function TeamDetails() {
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.instagram.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -200,11 +186,10 @@ function TeamDetails() {
 										data-jos_delay="0.1"
 									>
 										<div className="text-2xl lg:text-3xl font-bold leading-[1.4] -tracking-[1px]">
-											1. AI Strategy:
+											1. Mission alignment:
 										</div>
 										<p>
-											The CAIO plays a pivotal role in shaping the organizations
-											AI strategy. They work closely with senior leadership.
+											You understand why protecting government benefits matters — and you want to work on something that impacts real lives, not shareholder slides.
 										</p>
 									</li>
 									{/* Team Member Skill Item */}
@@ -214,11 +199,10 @@ function TeamDetails() {
 										data-jos_delay="0.2"
 									>
 										<div className="text-2xl lg:text-3xl font-bold leading-[1.4] -tracking-[1px]">
-											2. Technology Evaluation:
+											2. Nonprofit empathy:
 										</div>
 										<p>
-											He assess emerging AI technologies, tools, and platforms
-											to determine which ones are suitable for the organization.
+											You've worked with or for nonprofits and you understand their constraints: limited budgets, overworked staff, high stakes on every decision.
 										</p>
 									</li>
 									{/* Team Member Skill Item */}
@@ -228,11 +212,10 @@ function TeamDetails() {
 										data-jos_delay="0.3"
 									>
 										<div className="text-2xl lg:text-3xl font-bold leading-[1.4] -tracking-[1px]">
-											3. AI Project Oversight:
+											3. Fintech discipline:
 										</div>
 										<p>
-											The CAIO oversees the planning and execution of AI &amp;
-											ML projects throughout the organization.
+											You take financial data seriously. Every transaction is immutable, every audit trail is permanent, every compliance check has to work the first time.
 										</p>
 									</li>
 									{/* Team Member Skill Item */}
@@ -242,11 +225,10 @@ function TeamDetails() {
 										data-jos_delay="0.4"
 									>
 										<div className="text-2xl lg:text-3xl font-bold leading-[1.4] -tracking-[1px]">
-											4. Data Management:
+											4. Strong ownership:
 										</div>
 										<p>
-											Data is a critical component of AI, and the CAIO often
-											manages the organizations data strategy.
+											You ship without being asked. You know the difference between done and shipped, between working and trustworthy.
 										</p>
 									</li>
 									{/* Team Member Skill Item */}
@@ -256,11 +238,10 @@ function TeamDetails() {
 										data-jos_delay="0.5"
 									>
 										<div className="text-2xl lg:text-3xl font-bold leading-[1.4] -tracking-[1px]">
-											5. Risk Management:
+											5. Clear communication:
 										</div>
 										<p>
-											He is also responsible for identifying and mitigating
-											AI-related risks, including also ethical considerations
+											You explain technical concepts to case managers, compliance decisions to executives, and product tradeoffs to funders — all in the same week.
 										</p>
 									</li>
 									{/* Team Member Skill Item */}
@@ -270,11 +251,10 @@ function TeamDetails() {
 										data-jos_delay="0.6"
 									>
 										<div className="text-2xl lg:text-3xl font-bold leading-[1.4] -tracking-[1px]">
-											6. Innovation:
+											6. Long-term thinking:
 										</div>
 										<p>
-											The CAIO fosters a culture of innovation by encouraging
-											experimentation with AI technologies, promoting research.
+											You understand that building financial infrastructure is a 10-year project, not a 10-month sprint. You're in it for the mission, not the exit.
 										</p>
 									</li>
 									{/* Team Member Skill Item */}
@@ -289,7 +269,7 @@ function TeamDetails() {
 				</section>
 				{/*...::: Team Details Section End :::... */}
 			</main>
-			<Footer_01 />
+			<Footer_02 />
 		</>
 	);
 }

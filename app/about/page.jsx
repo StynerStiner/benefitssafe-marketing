@@ -1,12 +1,12 @@
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import Image from "next/image";
 import Link from "next/link";
 
 function About() {
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -15,13 +15,7 @@ function About() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">About Us</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>About</li>
-								</ul>
+								<h1 className="breadcrumb-title">Our Mission: Protect the People Who Need It Most</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -38,7 +32,7 @@ function About() {
 							{/* Section Content Block */}
 							<div className="jos mb-10 text-center lg:mb-12 xl:mb-20">
 								<div className="mx-auto md:max-w-xl lg:max-w-3xl xl:max-w-[950px]">
-									<h2>We are a trusted partner in our clients AI journey</h2>
+									<h2>Founded in Oakland, California, serving the 1.9 million US nonprofits managing funds for beneficiaries on SSI, SSDI, Medi-Cal, and CalFresh</h2>
 								</div>
 							</div>
 							{/* Section Content Block */}
@@ -49,7 +43,7 @@ function About() {
 							>
 								<Image
 									src="/assets/img_placeholder/th-1/about-hero-image.jpg"
-									alt="about-hero-image"
+									alt="BenefitsSafe team"
 									width={1296}
 									height={650}
 									className="h-full w-full object-cover"
@@ -71,64 +65,63 @@ function About() {
 							{/* Counter Items */}
 							<li className="jos" data-jos_delay="0.1">
 								<h3
-									className="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+									className="text-5xl text-colorViolet md:text-6xl lg:text-7xl xl:text-[80px]"
 									data-module="countup"
 								>
-									<span className="start-number" data-countup-number={2}>
-										2
+									<span className="start-number" data-countup-number={1.9}>
+										1.9
 									</span>
-									K+
+									M+
 								</h3>
 								<span className="block text-lg font-normal text-black">
-									Successful Implementations
+									US nonprofits we serve
 								</span>
 							</li>
 							{/* Counter Items */}
 							{/* Counter Items */}
 							<li className="jos" data-jos_delay="0.2">
 								<h3
-									className="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+									className="text-5xl text-colorViolet md:text-6xl lg:text-7xl xl:text-[80px]"
 									data-module="countup"
 								>
-									<span className="start-number" data-countup-number={95}>
-										95
+									<span className="start-number" data-countup-number={24}>
+										24
 									</span>
-									%
+									/7
 								</h3>
 								<span className="block text-lg font-normal text-black">
-									Client Satisfaction Rate
+									Autonomous compliance monitoring
 								</span>
 							</li>
 							{/* Counter Items */}
 							{/* Counter Items */}
 							<li className="jos" data-jos_delay="0.3">
 								<h3
-									className="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+									className="text-5xl text-colorViolet md:text-6xl lg:text-7xl xl:text-[80px]"
 									data-module="countup"
 								>
-									<span className="start-number" data-countup-number={40}>
-										40
+									<span className="start-number" data-countup-number={4}>
+										4
 									</span>
-									+
 								</h3>
 								<span className="block text-lg font-normal text-black">
-									Awards and Recognitions
+									Benefit programs monitored
 								</span>
 							</li>
 							{/* Counter Items */}
 							{/* Counter Items */}
 							<li className="jos" data-jos_delay="0.4">
 								<h3
-									className="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+									className="text-5xl text-colorViolet md:text-6xl lg:text-7xl xl:text-[80px]"
 									data-module="countup"
 								>
-									<span className="start-number" data-countup-number={73}>
-										73
+									<span className="start-number" data-countup-number={10}>
+										10
 									</span>
-									+
+									x
 								</h3>
 								<span className="block text-lg font-normal text-black">
-									Growth and Expansion
+									Cheaper than per-card competitors
 								</span>
 							</li>
 							{/* Counter Items */}
@@ -152,7 +145,7 @@ function About() {
 								>
 									<Image
 										src="/assets/img_placeholder/th-1/about-image.png"
-										alt="content-image-2"
+										alt="BenefitsSafe platform"
 										width={526}
 										height={550}
 										className="h-auto w-full"
@@ -163,24 +156,24 @@ function About() {
 								<div className="jos order-1" data-jos_animation="fade-right">
 									{/* Section Content Block */}
 									<div className="mb-6">
-										<h2>Delivering the best solutions with AI</h2>
+										<h2>Compliance-grade fintech infrastructure for every nonprofit</h2>
 									</div>
 									{/* Section Content Block */}
 									<div className="text-lg leading-[1.4] lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											Our mission is to empower businesses with AI-powered
-											solutions that increase productivity, improve
-											decision-making and drive growth.
+											Our platform combines virtual card technology with
+											autonomous AI monitoring to ensure every dollar is
+											spent correctly and every beneficiary stays protected.
 										</p>
 										<p className="mb-7 last:mb-0">
-											Since 2016 we have been passionate about helping our
-											clients harness With a team of AI experts and data
-											scientists their full potential &amp; stay competitive in
-											an increasingly digital world.
+											Nonprofits shouldn't need a six-figure legal
+											retainer to disburse a grant safely. Federal and
+											state compliance rules are built in, updated as
+											regulations change, so your team can focus on mission.
 										</p>
 										<Link
 											href="/contact"
-											className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+											className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 										>
 											Get in touch
 										</Link>
@@ -204,7 +197,7 @@ function About() {
 							<div className="mb-10 text-center lg:mb-12 xl:mb-20">
 								<div className="mx-auto md:max-w-xl lg:max-w-3xl xl:max-w-[745px]">
 									<h2 className="text-white">
-										The core values behind our work
+										The values that guide every decision
 									</h2>
 								</div>
 							</div>
@@ -214,75 +207,75 @@ function About() {
 							{/* Core Value list */}
 							<ul className="grid grid-cols-1 justify-between gap-6 md:grid-cols-2 xxl:flex xxl:flex-nowrap">
 								{/* Core Value Item */}
-								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorViolet after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
 									<div className="mb-3 flex items-center gap-x-3 md:mb-6">
 										<div className="h-[30px] w-[30px]">
 											<Image
-												src="/assets/img_placeholder/th-1/core-value-icon-1.svg"
-												alt="core-value-icon-1"
+												src="/assets/img_placeholder/th-1-violet/core-value-icon-1.svg"
+												alt="Protection First"
 												width={30}
 												height={30}
 											/>
 										</div>
-										<h4 className="flex-1 text-white">Innovation</h4>
+										<h4 className="flex-1 text-white">Protection First</h4>
 									</div>
 									<p className="text-lg text-white lg:text-[21px]">
-										We’re committed to exploring new technologies, and finding
+										Every feature starts with one question: does this protect the beneficiary?
 									</p>
 								</li>
 								{/* Core Value Item */}
 								{/* Core Value Item */}
-								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorViolet after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
 									<div className="mb-3 flex items-center gap-x-3 md:mb-6">
 										<div className="h-[30px] w-[30px]">
 											<Image
-												src="/assets/img_placeholder/th-1/core-value-icon-2.svg"
-												alt="core-value-icon-2"
+												src="/assets/img_placeholder/th-1-violet/core-value-icon-2.svg"
+												alt="Compliance by Design"
 												width={30}
 												height={30}
 											/>
 										</div>
-										<h4 className="flex-1 text-white">Excellence</h4>
+										<h4 className="flex-1 text-white">Compliance by Design</h4>
 									</div>
 									<p className="text-lg text-white lg:text-[21px]">
-										We set high standards for our work &amp; we are dedicated
+										Compliance is built into every card issuance, every transaction, every report.
 										team
 									</p>
 								</li>
 								{/* Core Value Item */}
 								{/* Core Value Item */}
-								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorViolet after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
 									<div className="mb-3 flex items-center gap-x-3 md:mb-6">
 										<div className="h-[30px] w-[30px]">
 											<Image
-												src="/assets/img_placeholder/th-1/core-value-icon-3.svg"
-												alt="core-value-icon-3"
+												src="/assets/img_placeholder/th-1-violet/core-value-icon-3.svg"
+												alt="Institutional Memory"
 												width={30}
 												height={30}
 											/>
 										</div>
-										<h4 className="flex-1 text-white">Collaboration</h4>
+										<h4 className="flex-1 text-white">Institutional Memory</h4>
 									</div>
 									<p className="text-lg text-white lg:text-[21px]">
-										We believe in the power of collaboration, working closely
+										Your system remembers everything, even when staff turns over.
 									</p>
 								</li>
 								{/* Core Value Item */}
 								{/* Core Value Item */}
-								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+								<li className="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorViolet after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
 									<div className="mb-3 flex items-center gap-x-3 md:mb-6">
 										<div className="h-[30px] w-[30px]">
 											<Image
-												src="/assets/img_placeholder/th-1/core-value-icon-4.svg"
-												alt="core-value-icon-4"
+												src="/assets/img_placeholder/th-1-violet/core-value-icon-4.svg"
+												alt="Radical Accessibility"
 												width={30}
 												height={30}
 											/>
 										</div>
-										<h4 className="flex-1 text-white">Integrity</h4>
+										<h4 className="flex-1 text-white">Radical Accessibility</h4>
 									</div>
 									<p className="text-lg text-white lg:text-[21px]">
-										We uphold the highest ethical honesty in all our
+										A church food pantry and a statewide foundation both deserve
 										interactions
 									</p>
 								</li>
@@ -304,11 +297,11 @@ function About() {
 							{/* Section Content Block */}
 							<div className="jos mb-10 flex flex-wrap items-center justify-between lg:mb-12 xl:mb-20">
 								<div className="max-w-sm lg:max-w-3xl xl:max-w-[745px]">
-									<h2>Our team consists of a group of talents</h2>
+									<h2>The small team building nonprofit fintech infrastructure</h2>
 								</div>
 								<Link
 									href="/team"
-									className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+									className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 								>
 									Join our team
 								</Link>
@@ -318,14 +311,14 @@ function About() {
 							<ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.1"
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
 											src="/assets/img_placeholder/th-1/team-member-img-1.jpg"
-											alt="team-member-img-1"
+											alt="Founder and CEO"
 											width={376}
 											height={400}
 											className="h-full w-full object-cover"
@@ -334,18 +327,18 @@ function About() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Mr. Abraham Maslo
+											Founder &amp; CEO
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Chief AI Officer</span>
+											<span className="text-[21px]">Fintech infrastructure for nonprofits</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -367,7 +360,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -389,7 +382,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -411,7 +404,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -436,14 +429,14 @@ function About() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.2"
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
 											src="/assets/img_placeholder/th-1/team-member-img-2.jpg"
-											alt="team-member-img-2"
+											alt="Head of Engineering"
 											width={376}
 											height={400}
 											className="h-full w-full object-cover"
@@ -452,18 +445,18 @@ function About() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Willium Robert
+											Head of Engineering
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Data Engineer</span>
+											<span className="text-[21px]">We're hiring! Join us.</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -485,7 +478,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -507,7 +500,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -529,7 +522,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -554,14 +547,14 @@ function About() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.3"
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
 											src="/assets/img_placeholder/th-1/team-member-img-3.jpg"
-											alt="team-member-img-3"
+											alt="Head of Partnerships"
 											width={376}
 											height={400}
 											className="h-full w-full object-cover"
@@ -570,18 +563,18 @@ function About() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Henry Fayol
+											Head of Partnerships
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Research Scientist</span>
+											<span className="text-[21px]">We're hiring! Join us.</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -603,7 +596,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -625,7 +618,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -647,7 +640,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -672,14 +665,14 @@ function About() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.4"
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
 											src="/assets/img_placeholder/th-1/team-member-img-4.jpg"
-											alt="team-member-img-4"
+											alt="Open role at BenefitsSafe"
 											width={376}
 											height={400}
 											className="h-full w-full object-cover"
@@ -688,18 +681,18 @@ function About() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Henry Martine
+											Open Role
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">AI Researchers</span>
+											<span className="text-[21px]">Passionate about protecting the vulnerable?</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -721,7 +714,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -743,7 +736,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -765,7 +758,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -790,14 +783,14 @@ function About() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.5"
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
 											src="/assets/img_placeholder/th-1/team-member-img-5.jpg"
-											alt="team-member-img-5"
+											alt="Open role at BenefitsSafe"
 											width={376}
 											height={400}
 											className="h-full w-full object-cover"
@@ -806,18 +799,18 @@ function About() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Jack Fox
+											Open Role
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">NLP Expert</span>
+											<span className="text-[21px]">Passionate about protecting the vulnerable?</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -839,7 +832,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -861,7 +854,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -883,7 +876,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -908,14 +901,14 @@ function About() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.6"
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
 											src="/assets/img_placeholder/th-1/team-member-img-6.jpg"
-											alt="team-member-img-6"
+											alt="Open role at BenefitsSafe"
 											width={376}
 											height={400}
 											className="h-full w-full object-cover"
@@ -924,18 +917,18 @@ function About() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Adam Smith
+											Open Role
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Project Manager</span>
+											<span className="text-[21px]">Passionate about protecting the vulnerable?</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -957,7 +950,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -979,7 +972,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -1001,7 +994,7 @@ function About() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -1046,7 +1039,7 @@ function About() {
 								>
 									<Image
 										src="/assets/img_placeholder/th-1/about-contact-img.jpg"
-										alt="about-contact-img"
+										alt="BenefitsSafe contact"
 										width={526}
 										height={550}
 										className="h-auto w-full"
@@ -1061,44 +1054,44 @@ function About() {
 									{/* Section Content Block */}
 									<div className="mb-6 md:max-w-max">
 										<h2 className="text-white">
-											We always want to connect our clients
+											Let's talk about your mission
 										</h2>
 									</div>
 									{/* Section Content Block */}
 									<div className="text-left text-lg leading-[1.4] text-white lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											AI accessible and beneficial for organizations, and we
-											look forward to partnering with businesses to achieve
-											their AI goals.
+											Whether you're evaluating BenefitsSafe for your nonprofit, exploring a
+											partnership, or joining the team look forward to partnering with businesses to achievemdash; we'd love to hear from you
+											and answer any questions about the product.
 										</p>
 									</div>
 									<ul className="mt-10 flex flex-col gap-6 font-dmSans text-[30px] tracking-[1.33] lg:mt-14 lg:gap-y-3 xl:mt-[70px]">
-										<li className="flex flex-col gap-x-2 leading-tight text-colorOrangyRed lg:flex-row lg:leading-normal">
+										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
 											Website:
 											<Link
 												rel="noopener noreferrer"
-												href="https://www.example.com"
-												className="text-white hover:text-colorOrangyRed"
+												href="https://benefitssafe.com"
+												className="text-white hover:text-colorViolet"
 											>
-												www.example.com
+												benefitssafe.com
 											</Link>
 										</li>
-										<li className="flex flex-col gap-x-2 leading-tight text-colorOrangyRed lg:flex-row lg:leading-normal">
+										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
 											Email:
 											<Link
-												href="mailto:yourmail@mail.com"
-												className="text-white hover:text-colorOrangyRed"
+												href="mailto:support@benefitssafe.com"
+												className="text-white hover:text-colorViolet"
 											>
-												yourmail@mail.com
+												support@benefitssafe.com
 											</Link>
 										</li>
-										<li className="flex flex-col gap-x-2 leading-tight text-colorOrangyRed lg:flex-row lg:leading-normal">
-											Phone:
+										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
+											Location:
 											<Link
-												href="tel:+1234567890"
-												className="text-white hover:text-colorOrangyRed"
+												href="#"
+												className="text-white hover:text-colorViolet"
 											>
-												(123) 456-7890
+												Oakland, California
 											</Link>
 										</li>
 									</ul>
@@ -1112,7 +1105,7 @@ function About() {
 				</section>
 				{/*...::: About Contact Section End :::... */}
 			</main>
-			<Footer_01/>
+			<Footer_02/>
 		</>
 	);
 }

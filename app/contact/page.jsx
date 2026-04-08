@@ -1,12 +1,12 @@
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import Image from "next/image";
 import Link from "next/link";
 
 function Contact() {
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -15,13 +15,7 @@ function Contact() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">Contact Us</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>Contact Us</li>
-								</ul>
+								<h1 className="breadcrumb-title">Get in Touch</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -41,32 +35,31 @@ function Contact() {
 									{/* Section Content Block */}
 									<div className="mb-8 text-left lg:mb-16 xl:mb-6">
 										<div className="mx-auto md:mx-0 md:max-w-none">
-											<h2>Get in touch with us directly</h2>
+											<h2>We&apos;d love to hear from your nonprofit</h2>
 										</div>
 									</div>
 									{/* Section Content Block */}
 									<div className="text-lg leading-[1.4] lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											We are here to help you! Tell us how we can help &amp; we
-											ll be in touch with an expert within the next 24 hours.
+											Whether you're exploring BenefitsSafe for your nonprofit, a funder interested in our platform, or a developer looking to integrate — we respond within one business day.
 										</p>
 										<ul className="mt-12 flex flex-col gap-y-8 lg:gap-y-12">
 											<li className="flex flex-col gap-y-4 text-2xl font-bold">
 												Send us an email:
 												<Link
-													href="mailto:yourmail@email.com"
-													className="text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl"
+													href="mailto:support@benefitssafe.com"
+													className="text-2xl font-normal leading-loose hover:text-colorViolet lg:text-3xl"
 												>
-													info@benefitssafe.com
+													support@benefitssafe.com
 												</Link>
 											</li>
 											<li className="flex flex-col gap-y-4 text-2xl font-bold">
-												Give us a call:
+												Visit us:
 												<Link
-													href="tel:+0123456789"
-													className="text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl"
+													href="#"
+													className="text-2xl font-normal leading-loose hover:text-colorViolet lg:text-3xl"
 												>
-													+(012) 345 6789
+													Oakland, California
 												</Link>
 											</li>
 											<li className="flex flex-col gap-y-4 text-2xl font-bold">
@@ -76,7 +69,7 @@ function Contact() {
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.facebook.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -98,7 +91,7 @@ function Contact() {
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.twitter.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -120,7 +113,7 @@ function Contact() {
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.linkedin.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -142,7 +135,7 @@ function Contact() {
 														<Link
 															rel="noopener noreferrer"
 															href="http://www.instagram.com"
-															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+															className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 														>
 															<Image
 																src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -188,8 +181,8 @@ function Contact() {
 													type="text"
 													name="contact-name"
 													id="contact-name"
-													placeholder="Adam Smith"
-													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
+													placeholder="Your name"
+													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorViolet"
 													required=""
 												/>
 											</div>
@@ -206,8 +199,8 @@ function Contact() {
 													type="email"
 													name="contact-email"
 													id="contact-email"
-													placeholder="example@gmail.com"
-													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
+													placeholder="you@nonprofit.org"
+													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorViolet"
 													required=""
 												/>
 											</div>
@@ -222,15 +215,15 @@ function Contact() {
 													htmlFor="contact-phone"
 													className="text-lg font-bold leading-[1.6]"
 												>
-													Phone number
+													Phone (optional)
 												</label>
 												<input
 													type="tel"
 													name="contact-phone"
 													id="contact-phone"
-													placeholder="(123) 456 - 7890"
-													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
-													required=""
+													placeholder="(555) 123-4567"
+													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorViolet"
+													
 												/>
 											</div>
 											{/* Form Single Input */}
@@ -240,14 +233,14 @@ function Contact() {
 													htmlFor="contact-company"
 													className="text-lg font-bold leading-[1.6]"
 												>
-													Company
+													Organization
 												</label>
 												<input
 													type="text"
 													name="contact-company"
 													id="contact-company"
-													placeholder="EX Facebook"
-													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
+													placeholder="Your nonprofit"
+													className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorViolet"
 													required=""
 												/>
 											</div>
@@ -267,7 +260,7 @@ function Contact() {
 												<textarea
 													name="contact-message"
 													id="contact-message"
-													className="min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
+													className="min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorViolet"
 													placeholder="Write your message here..."
 													required=""
 													defaultValue={
@@ -280,7 +273,7 @@ function Contact() {
 										<div>
 											<button
 												type="submit"
-												className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+												className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 											>
 												Send your message
 											</button>
@@ -307,7 +300,7 @@ function Contact() {
 							<div className="mb-10 text-center lg:mb-16 xl:mb-20">
 								<div className="mx-auto md:max-w-xs lg:max-w-xl xl:max-w-[950px]">
 									<h2 className="text-white">
-										We always welcome our clients to our office
+										Based in Oakland, serving nonprofits nationwide
 									</h2>
 								</div>
 							</div>
@@ -333,7 +326,7 @@ function Contact() {
 												className="opacity-100 group-hover:opacity-0 transition-all duration-300"
 											/>
 											<Image
-												src="/assets/img_placeholder/th-1/icon-orange-location-marker.svg"
+												src="/assets/img_placeholder/th-1-violet/icon-orange-location-marker.svg"
 												alt="icon-gray-location-marker"
 												width={50}
 												height={50}
@@ -369,7 +362,7 @@ function Contact() {
 												className="opacity-100 group-hover:opacity-0 transition-all duration-300"
 											/>
 											<Image
-												src="/assets/img_placeholder/th-1/icon-orange-location-marker.svg"
+												src="/assets/img_placeholder/th-1-violet/icon-orange-location-marker.svg"
 												alt="icon-gray-location-marker"
 												width={50}
 												height={50}
@@ -405,7 +398,7 @@ function Contact() {
 												className="opacity-100 group-hover:opacity-0 transition-all duration-300"
 											/>
 											<Image
-												src="/assets/img_placeholder/th-1/icon-orange-location-marker.svg"
+												src="/assets/img_placeholder/th-1-violet/icon-orange-location-marker.svg"
 												alt="icon-gray-location-marker"
 												width={50}
 												height={50}
@@ -441,7 +434,7 @@ function Contact() {
 												className="opacity-100 group-hover:opacity-0 transition-all duration-300"
 											/>
 											<Image
-												src="/assets/img_placeholder/th-1/icon-orange-location-marker.svg"
+												src="/assets/img_placeholder/th-1-violet/icon-orange-location-marker.svg"
 												alt="icon-gray-location-marker"
 												width={50}
 												height={50}
@@ -477,7 +470,7 @@ function Contact() {
 												className="opacity-100 group-hover:opacity-0 transition-all duration-300"
 											/>
 											<Image
-												src="/assets/img_placeholder/th-1/icon-orange-location-marker.svg"
+												src="/assets/img_placeholder/th-1-violet/icon-orange-location-marker.svg"
 												alt="icon-gray-location-marker"
 												width={50}
 												height={50}
@@ -510,7 +503,7 @@ function Contact() {
 				</section>
 				{/*...::: Map Section Start :::... */}
 			</main>
-			<Footer_01/>
+			<Footer_02/>
 		</>
 	);
 }

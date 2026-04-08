@@ -1,12 +1,12 @@
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import Image from "next/image";
 import Link from "next/link";
 
 function BlogDetails() {
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -15,13 +15,7 @@ function BlogDetails() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">Blog Details</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>Blog Details</li>
-								</ul>
+								<h1 className="breadcrumb-title">How Virtual Cards Protect SSI Beneficiaries from Losing Benefits</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -44,7 +38,7 @@ function BlogDetails() {
 											<div className="mb-7 block overflow-hidden rounded-[10px]">
 												<Image
 													src="/assets/img_placeholder/th-1/blog-main-1.jpg"
-													alt="blog-main-1"
+													alt="Virtual cards protecting SSI beneficiaries"
 													width={856}
 													height={540}
 													className="h-auto w-full scale-100 object-cover"
@@ -55,7 +49,7 @@ function BlogDetails() {
 												<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 													<Link
 														href="/blog-details"
-														className="hover:text-colorOrangyRed"
+														className="hover:text-colorViolet"
 													>
 														Business
 													</Link>
@@ -63,63 +57,49 @@ function BlogDetails() {
 												<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 													<Link
 														href="/blog-details"
-														className="hover:text-colorOrangyRed"
+														className="hover:text-colorViolet"
 													>
-														June 12, 2024
+														March 28, 2026
 													</Link>
 												</li>
 											</ul>
 											{/* Blog Post Meta */}
 											<h5 className="mb-3 mt-5">
-												10 ways to supercharge your startup with AI integration:
-												unlock exponential growth
+												How Virtual Cards Protect SSI Beneficiaries from Losing Benefits
 											</h5>
 											<p className="mb-7 last:mb-0">
-												The rapid advancements in AI have paved the way for
-												startups to revolutionize their businesses. This article
-												explores 10 key ways AI can be integrated into startups
-												and provides real-world examples of its tangible impact
-												across industries.
+												For nonprofits managing restricted grant funds, every dollar disbursed carries a hidden risk: one wrong purchase could push a beneficiary over their SSI asset limit and cost them their benefits. Virtual debit cards with built-in spending controls are the modern solution — but they only work if you understand why traditional cash or reimbursement models fail.
 											</p>
 											<ul className="mb-7 flex flex-col gap-7 last:mb-0">
 												<li>
 													<div className="font-semibold">
-														1. AI-Powered Customer Support
+														1. SSI asset limits are unforgiving
 													</div>
 													<p className="mb-7 last:mb-0">
-														AI chatbots and virtual assistants can handle
-														routine queries, troubleshoot issues, and guide
-														users, improving response times. This frees up human
-														agents to tackle complex tasks, enhancing user
-														experience.
+														Supplemental Security Income (SSI) has a $2,000 resource limit for individuals. A single deposit that pushes a beneficiary over that threshold — even temporarily — can trigger benefit loss, repayment demands, and months of appeals. Rent, food, and shelter payments received by the beneficiary count as in-kind support and maintenance (ISM), reducing SSI by up to one-third.
 													</p>
 												</li>
 												<li>
 													<div className="font-semibold">
-														2. Predictive Maintenance
+														2. Why cash to beneficiaries is dangerous
 													</div>
 													<p className="mb-7 last:mb-0">
-														By analyzing usage patterns, ML algorithms can
-														predict failures, enabling proactive maintenance and
-														minimizing downtime.
+														When a nonprofit reimburses a beneficiary directly or hands them cash for a purchase, the money passes through the beneficiary's pocket — and through SSA's accounting. It counts as income for SSI. The 'safer' path is direct-to-vendor payment: the nonprofit pays the merchant, the beneficiary never touches the money, and SSI eligibility stays intact.
 													</p>
 												</li>
 												<li>
 													<div className="font-semibold">
-														3. Enhanced Cybersecurity
+														3. How merchant category blocking (MCC) works
 													</div>
 													<p className="mb-7 last:mb-0">
-														AI anomaly detection, behavior analysis, and
-														intrusion prevention boost security and data
-														protection. This safeguards infrastructure and
-														builds user trust.
+														Every merchant has a Merchant Category Code (MCC) — a 4-digit classification Visa and Mastercard use. Grocery stores, liquor shops, casinos, and even cash advances each have distinct MCCs. Virtual cards issued through BenefitsSafe can block entire categories. A card issued for software subscriptions only accepts MCCs matching online services — declining at a grocery store automatically.
 													</p>
 												</li>
 												<li>
 													<div className="overflow-hidden rounded-[10px]">
 														<Image
 															src="/assets/img_placeholder/th-1/blog-inner-image.jpg"
-															alt="blog-inner-image"
+															alt="SSI compliance workflow"
 															width={100}
 															height={100}
 															className="h-auto w-full"
@@ -128,56 +108,46 @@ function BlogDetails() {
 												</li>
 												<li>
 													<div className="font-semibold">
-														4. Personalized User Experiences
+														4. Spending limits and curfews add a second layer
 													</div>
 													<p className="mb-7 last:mb-0">
-														By analyzing behavior and preferences, AI tailors
-														interfaces and features. This improves satisfaction
-														and encourages retention.
+														Beyond MCC blocking, BenefitsSafe cards enforce dollar caps (per transaction, per day, per month) and time-based curfews (no 2am purchases). If a card is compromised or misused, the spending cap prevents catastrophic loss. Curfews flag unusual patterns before they become problems.
 													</p>
 												</li>
 												<li>
 													<div className="font-semibold">
-														5. Automated Workflows
+														5. SentinelLayer watches the thresholds you can&apos;t
 													</div>
 													<p className="mb-7 last:mb-0">
-														Automating tasks like software updates and license
-														management with AI reduces manual efforts and
-														minimizes errors.
+														Cards alone aren't enough. BenefitsSafe's SentinelLayer monitors every beneficiary's financial picture daily — across SSI, SSDI, Medi-Cal, and CalFresh. If a birthday check from family or a tax refund pushes someone near the $2,000 SSI limit, the system alerts their case manager with specific numbers and recommended actions.
 													</p>
 												</li>
 											</ul>
 											<div className="font-semibold">
-												Key Takeaways for Founders
+												Key Takeaways for Nonprofit Case Managers
 											</div>
 											<ul className="mb-7 last:mb-0">
 												<li className="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
-													Start with chatbot, workflow automation, and basic
+													Never disburse cash directly to an SSI beneficiary. Pay vendors.
 													analytics.
 												</li>
 												<li className="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
-													Gradually scale AI adoption as the business matures.
+													Issue merchant-locked virtual cards per expense category.
 												</li>
 												<li className="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
-													Identify the right AI use cases to solve pressing
-													needs.
+													Set spending caps matched to grant budget categories.
 												</li>
 												<li className="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
-													Integrate AI into workflows and processes seamlessly.
+													Monitor daily thresholds automatically with SentinelLayer.
 												</li>
 												<li className="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
-													Get creative — leverage partnerships and talent from
-													outside.
+													Document every transaction for immutable audit trail.
 												</li>
 											</ul>
 											<p className="mb-7 last:mb-0">
-												The key to startup success is focusing AI efforts on the
-												applications that will differentiate your business and
-												have the biggest impact at each stage of growth. With
-												the right strategy, AI can unlock transformation
-												opportunities and exponential value creation.
+												The combination of virtual cards, merchant category blocking, spending limits, and continuous threshold monitoring isn't just convenience — it's a protective architecture. When a nonprofit can prove every dollar went to an approved vendor, stayed inside compliance thresholds, and never passed through a beneficiary's account, benefits eligibility is preserved by design.
 											</p>
-											<p className="mb-7 last:mb-0">Thanks for reading ❤</p>
+											<p className="mb-7 last:mb-0">Ready to issue your first virtual card? Start your free BenefitsSafe trial today.</p>
 										</article>
 										{/* Blog Post Text Area */}
 										{/* Blog Events */}
@@ -228,7 +198,7 @@ function BlogDetails() {
 										{/* Single Post Navigation */}
 										<div className="jos flex flex-col justify-between md:flex-row md:gap-x-10 xl:gap-x-24 xxl:gap-x-[196px]">
 											<Link href="/blog-details" className="group text-left">
-												<span className="inline-flex items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorOrangyRed">
+												<span className="inline-flex items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorViolet">
 													<Image
 														src="/assets/img_placeholder/th-1/icon-black-cheveron-left.svg"
 														alt="icon-black-cheveron-left.svg"
@@ -238,12 +208,12 @@ function BlogDetails() {
 													Previous post
 												</span>
 												<p>
-													Amazon testing AI tools to improve product
+													The True Cost of Paper Check Disbursements
 													descriptions: a game-changer
 												</p>
 											</Link>
 											<Link href="/blog-details" className="group text-right">
-												<span className="inline-flex flex-row-reverse items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorOrangyRed">
+												<span className="inline-flex flex-row-reverse items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorViolet">
 													<Image
 														src="/assets/img_placeholder/th-1/icon-black-cheveron-right.svg"
 														alt="icon-black-cheveron-right.svg"
@@ -253,8 +223,8 @@ function BlogDetails() {
 													Next post
 												</span>
 												<p>
-													3 best AI businesses to make money with in 2024
-													everyone is buzzing
+													What Every Case Manager Should Know About SSI Asset Limits
+													plain-English guide to 2025 thresholds
 												</p>
 											</Link>
 										</div>
@@ -283,20 +253,17 @@ function BlogDetails() {
 															{/* Comment User info */}
 															<div className="flex items-center justify-between gap-x-5">
 																<div className="flex flex-col gap-y-1">
-																	<div className="font-bold">Ricky Smith</div>
+																	<div className="font-bold">Program Director</div>
 																	<div className="text-sm">June 14, 2024</div>
 																</div>
-																<button className="font-bold transition-all duration-300 hover:text-colorOrangyRed">
+																<button className="font-bold transition-all duration-300 hover:text-colorViolet">
 																	Reply
 																</button>
 															</div>
 															{/* Comment User info */}
 															{/* Comment User Text */}
 															<p className="max-w-[616px]">
-																It is a long established fact that a reader will
-																be distrac readable content of a page when
-																looking at its layout. The point of using is
-																that it has two.
+																This is exactly the kind of clear explanation I send to every new case manager on my team. The MCC blocking example finally made spending controls click for them.
 															</p>
 															{/* Comment User Text */}
 														</div>
@@ -323,22 +290,20 @@ function BlogDetails() {
 																	<div className="flex items-center justify-between gap-x-5">
 																		<div className="flex flex-col gap-y-1">
 																			<div className="font-bold">
-																				Joshua Jones
+																				Case Manager
 																			</div>
 																			<div className="text-sm">
 																				June 15, 2024
 																			</div>
 																		</div>
-																		<button className="font-bold transition-all duration-300 hover:text-colorOrangyRed">
+																		<button className="font-bold transition-all duration-300 hover:text-colorViolet">
 																			Reply
 																		</button>
 																	</div>
 																	{/* Comment User info */}
 																	{/* Comment User Text */}
 																	<p className="max-w-[536px]">
-																		It is a long established fact that a reader
-																		will be distra readable content of a page
-																		when looking its layout. The point of using.
+																		Agreed. We rolled out virtual cards last quarter and the threshold alerts have already caught two near-misses. Worth every penny.
 																	</p>
 																	{/* Comment User Text */}
 																</div>
@@ -380,8 +345,8 @@ function BlogDetails() {
 															type="text"
 															name="comment-name"
 															id="comment-name"
-															placeholder="Adam Smith"
-															className="placeholder:[#7F8995] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorOrangyRed"
+															placeholder="Your name"
+															className="placeholder:[#7F8995] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorViolet"
 															required=""
 														/>
 													</div>
@@ -399,7 +364,7 @@ function BlogDetails() {
 															name="comment-email"
 															id="comment-email"
 															placeholder="example@gmail.com"
-															className="placeholder:[#7F8995] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorOrangyRed"
+															className="placeholder:[#7F8995] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorViolet"
 															required=""
 														/>
 													</div>
@@ -419,7 +384,7 @@ function BlogDetails() {
 														<textarea
 															name="comment-message"
 															id="comment-message"
-															className="placeholder:[#7F8995] min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorOrangyRed"
+															className="placeholder:[#7F8995] min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorViolet"
 															placeholder="Write your message here..."
 															required=""
 															defaultValue={"                            "}
@@ -430,7 +395,7 @@ function BlogDetails() {
 												<div className="">
 													<button
 														type="submit"
-														className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+														className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 													>
 														Send your message
 													</button>
@@ -457,7 +422,7 @@ function BlogDetails() {
 												name="sidebar-search"
 												id="sidebar-search"
 												placeholder="Type to search..."
-												className="h-full w-full rounded-[50px] border border-[#E1E1E1] bg-white py-[15px] pl-16 pr-8 text-lg outline-none transition-all focus:border-colorOrangyRed"
+												className="h-full w-full rounded-[50px] border border-[#E1E1E1] bg-white py-[15px] pl-16 pr-8 text-lg outline-none transition-all focus:border-colorViolet"
 												required=""
 											/>
 											<button
@@ -485,33 +450,49 @@ function BlogDetails() {
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Business &amp; Marketing (18)
+													SSI &amp; SSDI Compliance (12)
 												</Link>
 											</li>
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Technology (05)
+													Grant Management (8)
 												</Link>
 											</li>
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Art &amp; Beauty (23)
+													Medi-Cal &amp; CalFresh (6)
 												</Link>
 											</li>
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Digital Agency (10)
+													Virtual Cards (5)
+												</Link>
+											</li>
+											<li className="mb-6 last:mb-0">
+												<Link
+													href="/blog-details"
+													className="text-black hover:text-colorViolet"
+												>
+													ABLE Accounts (4)
+												</Link>
+											</li>
+											<li className="mb-6 last:mb-0">
+												<Link
+													href="/blog-details"
+													className="text-black hover:text-colorViolet"
+												>
+													Nonprofit Operations (9)
 												</Link>
 											</li>
 										</ul>
@@ -541,7 +522,7 @@ function BlogDetails() {
 												<div className="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
 													<Link
 														href="/blog-details"
-														className="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed"
+														className="flex items-center gap-[10px] text-sm hover:text-colorViolet"
 													>
 														<div className="h-6 w-6">
 															<Image
@@ -552,13 +533,13 @@ function BlogDetails() {
 																className="h-full w-full object-cover"
 															/>
 														</div>
-														June 12, 2024
+														March 28, 2026
 													</Link>
 													<Link
 														href="/blog-details"
-														className="text-base font-bold hover:text-colorOrangyRed"
+														className="text-base font-bold hover:text-colorViolet"
 													>
-														6 profitable AI tech businesses to start
+														Why Staff Turnover Doesn&apos;t Have to Mean Lost Knowledge
 													</Link>
 												</div>
 											</li>
@@ -578,7 +559,7 @@ function BlogDetails() {
 												<div className="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
 													<Link
 														href="/blog-details"
-														className="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed"
+														className="flex items-center gap-[10px] text-sm hover:text-colorViolet"
 													>
 														<div className="h-6 w-6">
 															<Image
@@ -593,9 +574,9 @@ function BlogDetails() {
 													</Link>
 													<Link
 														href="/blog-details"
-														className="text-base font-bold hover:text-colorOrangyRed"
+														className="text-base font-bold hover:text-colorViolet"
 													>
-														Why i decided to sell my B2B SaaS AI business
+														BenefitsSafe vs True Link: What&apos;s the Difference?
 													</Link>
 												</div>
 											</li>
@@ -615,7 +596,7 @@ function BlogDetails() {
 												<div className="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
 													<Link
 														href="/blog-details"
-														className="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed"
+														className="flex items-center gap-[10px] text-sm hover:text-colorViolet"
 													>
 														<div className="h-6 w-6">
 															<Image
@@ -630,9 +611,9 @@ function BlogDetails() {
 													</Link>
 													<Link
 														href="/blog-details"
-														className="text-base font-bold hover:text-colorOrangyRed"
+														className="text-base font-bold hover:text-colorViolet"
 													>
-														8 AI tools that will your streamline workflows
+														How to Set Up a Grant Disbursement Program in 24 Hours
 													</Link>
 												</div>
 											</li>
@@ -650,7 +631,7 @@ function BlogDetails() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													Article
 												</Link>
@@ -658,7 +639,7 @@ function BlogDetails() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													Business
 												</Link>
@@ -666,7 +647,7 @@ function BlogDetails() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													Digital
 												</Link>
@@ -674,7 +655,7 @@ function BlogDetails() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													Technology
 												</Link>
@@ -682,7 +663,7 @@ function BlogDetails() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													UI/UX
 												</Link>
@@ -706,12 +687,12 @@ function BlogDetails() {
 												name="sidebar-newsletter"
 												id="sidebar-newsletter"
 												placeholder="Enter your email address"
-												className="h-[60px] w-full rounded-[50px] border border-colorCodGray bg-transparent px-10 py-[15px] text-lg outline-none transition-all placeholder:text-black focus:border-colorOrangyRed"
+												className="h-[60px] w-full rounded-[50px] border border-colorCodGray bg-transparent px-10 py-[15px] text-lg outline-none transition-all placeholder:text-black focus:border-colorViolet"
 												required=""
 											/>
 											<button
 												type="submit"
-												className="button mt-5 block rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+												className="button mt-5 block rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 											>
 												Subscribe Now
 											</button>
@@ -728,7 +709,7 @@ function BlogDetails() {
 				</div>
 				{/*...::: Blog Section End :::... */}
 			</main>
-			<Footer_01/>
+			<Footer_02/>
 		</>
 	);
 }

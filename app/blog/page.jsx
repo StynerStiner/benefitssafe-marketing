@@ -1,12 +1,12 @@
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import Image from "next/image";
 import Link from "next/link";
 
 function Blog() {
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -15,13 +15,7 @@ function Blog() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">Our Blog</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>Our Blog</li>
-								</ul>
+								<h1 className="breadcrumb-title">The BenefitsSafe Blog</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -59,7 +53,7 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															Business
 														</Link>
@@ -67,23 +61,20 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															June 12, 2024
 														</Link>
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorOrangyRed">
+												<h5 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
-														10 ways to supercharge startup with AI integration
+														How Virtual Cards Protect SSI Beneficiaries from Losing Benefits
 													</Link>
 												</h5>
 												<p className="mb-7 line-clamp-2 last:mb-0">
-													The rapid advancements in AI have paved the way for
-													startups to revolutionize various industries, from
-													healthcare to finance, by leveraging the power of
-													machine learning and automation.
+													Learn how merchant category blocking and spending controls prevent accidental purchases that could disqualify your clients from SSI.
 												</p>
 											</div>
 										</li>
@@ -108,7 +99,7 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															Technology
 														</Link>
@@ -116,21 +107,20 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															June 10, 2024
 														</Link>
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorOrangyRed">
+												<h5 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
-														Testing AI tools to improve product descriptions
+														The True Cost of Paper Check Disbursements for Nonprofits
 													</Link>
 												</h5>
 												<p className="mb-7 line-clamp-2 last:mb-0">
-													Amazon is currently testing generative artificial
-													intelligence (AI) tools for...
+													Paper checks take 2 weeks, create no audit trail, and cost more than you think. Here's why virtual cards are the future of nonprofit disbursement.
 												</p>
 											</div>
 										</li>
@@ -155,29 +145,28 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
-															Marketing
+															Benefits Guide
 														</Link>
 													</li>
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															June 09, 2024
 														</Link>
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorOrangyRed">
+												<h5 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
-														3 best AI businesses to make money with in 2024
+														What Every Case Manager Should Know About SSI Asset Limits in 2025
 													</Link>
 												</h5>
 												<p className="mb-7 line-clamp-2 last:mb-0">
-													Everyone is buzzing about AI and its potential to
-													revolutionize the business...
+													SSI asset limits, SSDI SGA thresholds, and Medi-Cal income caps — explained in plain English with current 2025 California numbers.
 												</p>
 											</div>
 										</li>
@@ -202,7 +191,7 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															Artificial Intelligence
 														</Link>
@@ -210,21 +199,20 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															June 07, 2024
 														</Link>
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorOrangyRed">
+												<h5 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
-														Phrase gives AI-generated content for me at a glance
+														Why Staff Turnover Doesn't Have to Mean Lost Compliance Knowledge
 													</Link>
 												</h5>
 												<p className="mb-7 line-clamp-2 last:mb-0">
-													While this is incredibly rewarding and has sharpened
-													my editorial skills...
+													45% annual turnover in social services. Here's how autonomous monitoring preserves institutional knowledge even when staff leaves.
 												</p>
 											</div>
 										</li>
@@ -249,7 +237,7 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															Graphics
 														</Link>
@@ -257,22 +245,21 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															June 05, 2024
 														</Link>
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorOrangyRed">
+												<h5 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
-														Testing out Stabilization AI s free image editing
+														BenefitsSafe vs True Link: What's the Difference?
 														tool
 													</Link>
 												</h5>
 												<p className="mb-7 line-clamp-2 last:mb-0">
-													Stability AI is the company that created an
-													open-source AI image generator...
+													True Link charges $12/card. We charge $49/org. Here's why per-organization pricing is better for nonprofits.
 												</p>
 											</div>
 										</li>
@@ -297,7 +284,7 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															UI/UX
 														</Link>
@@ -305,21 +292,20 @@ function Blog() {
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
 														<Link
 															href="/blog-details"
-															className="hover:text-colorOrangyRed"
+															className="hover:text-colorViolet"
 														>
 															June 01, 2024
 														</Link>
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorOrangyRed">
+												<h5 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
-														How to started using AI-based tools as a designer
+														How to Set Up a Grant Disbursement Program in Under 24 Hours
 													</Link>
 												</h5>
 												<p className="mb-7 line-clamp-2 last:mb-0">
-													Acting on Jakob Nielsen’s stunning prediction of AI
-													being the future...
+													Connect your bank, add beneficiaries, issue cards. A step-by-step guide to getting started with BenefitsSafe in under 24 hours.
 												</p>
 											</div>
 										</li>
@@ -417,7 +403,7 @@ function Blog() {
 												name="sidebar-search"
 												id="sidebar-search"
 												placeholder="Type to search..."
-												className="h-full w-full rounded-[50px] border border-[#E1E1E1] bg-white py-[15px] pl-16 pr-8 text-lg outline-none transition-all focus:border-colorOrangyRed"
+												className="h-full w-full rounded-[50px] border border-[#E1E1E1] bg-white py-[15px] pl-16 pr-8 text-lg outline-none transition-all focus:border-colorViolet"
 												required=""
 											/>
 											<button
@@ -445,33 +431,49 @@ function Blog() {
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Business &amp; Marketing (18)
+													SSI &amp; SSDI Compliance (12)
 												</Link>
 											</li>
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Technology (05)
+													Grant Management (8)
 												</Link>
 											</li>
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Art &amp; Beauty (23)
+													Medi-Cal &amp; CalFresh (6)
 												</Link>
 											</li>
 											<li className="mb-6 last:mb-0">
 												<Link
 													href="/blog-details"
-													className="text-black hover:text-colorOrangyRed"
+													className="text-black hover:text-colorViolet"
 												>
-													Digital Agency (10)
+													Virtual Cards (5)
+												</Link>
+											</li>
+											<li className="mb-6 last:mb-0">
+												<Link
+													href="/blog-details"
+													className="text-black hover:text-colorViolet"
+												>
+													ABLE Accounts (4)
+												</Link>
+											</li>
+											<li className="mb-6 last:mb-0">
+												<Link
+													href="/blog-details"
+													className="text-black hover:text-colorViolet"
+												>
+													Nonprofit Operations (9)
 												</Link>
 											</li>
 										</ul>
@@ -501,7 +503,7 @@ function Blog() {
 												<div className="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
 													<Link
 														href="/blog-details"
-														className="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed"
+														className="flex items-center gap-[10px] text-sm hover:text-colorViolet"
 													>
 														<div className="h-6 w-6">
 															<Image
@@ -516,9 +518,9 @@ function Blog() {
 													</Link>
 													<Link
 														href="/blog-details"
-														className="text-base font-bold hover:text-colorOrangyRed"
+														className="text-base font-bold hover:text-colorViolet"
 													>
-														6 profitable AI tech businesses to start
+														ABLE Accounts: What Nonprofits Should Know
 													</Link>
 												</div>
 											</li>
@@ -538,7 +540,7 @@ function Blog() {
 												<div className="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
 													<Link
 														href="/blog-details"
-														className="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed"
+														className="flex items-center gap-[10px] text-sm hover:text-colorViolet"
 													>
 														<div className="h-6 w-6">
 															<Image
@@ -553,9 +555,9 @@ function Blog() {
 													</Link>
 													<Link
 														href="/blog-details"
-														className="text-base font-bold hover:text-colorOrangyRed"
+														className="text-base font-bold hover:text-colorViolet"
 													>
-														Why i decided to sell my B2B SaaS AI business
+														Medi-Cal Asset Limit Changes Coming in 2026
 													</Link>
 												</div>
 											</li>
@@ -575,7 +577,7 @@ function Blog() {
 												<div className="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
 													<Link
 														href="/blog-details"
-														className="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed"
+														className="flex items-center gap-[10px] text-sm hover:text-colorViolet"
 													>
 														<div className="h-6 w-6">
 															<Image
@@ -590,9 +592,9 @@ function Blog() {
 													</Link>
 													<Link
 														href="/blog-details"
-														className="text-base font-bold hover:text-colorOrangyRed"
+														className="text-base font-bold hover:text-colorViolet"
 													>
-														8 AI tools that will your streamline workflows
+														5 Questions to Ask Before Issuing a Virtual Card
 													</Link>
 												</div>
 											</li>
@@ -610,7 +612,7 @@ function Blog() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													Article
 												</Link>
@@ -618,7 +620,7 @@ function Blog() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													Business
 												</Link>
@@ -626,15 +628,15 @@ function Blog() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Digital
+													Compliance
 												</Link>
 											</li>
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													Technology
 												</Link>
@@ -642,7 +644,7 @@ function Blog() {
 											<li>
 												<Link
 													href="/blog-details"
-													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white"
+													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
 													UI/UX
 												</Link>
@@ -666,12 +668,12 @@ function Blog() {
 												name="sidebar-newsletter"
 												id="sidebar-newsletter"
 												placeholder="Enter your email address"
-												className="h-[60px] w-full rounded-[50px] border border-colorCodGray bg-transparent px-10 py-[15px] text-lg outline-none transition-all placeholder:text-black focus:border-colorOrangyRed"
+												className="h-[60px] w-full rounded-[50px] border border-colorCodGray bg-transparent px-10 py-[15px] text-lg outline-none transition-all placeholder:text-black focus:border-colorViolet"
 												required=""
 											/>
 											<button
 												type="submit"
-												className="button mt-5 block rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+												className="button mt-5 block rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 											>
 												Subscribe Now
 											</button>
@@ -688,7 +690,7 @@ function Blog() {
 				</section>
 				{/*...::: Blog Section End :::... */}
 			</main>
-			<Footer_01/>
+			<Footer_02/>
 		</>
 	);
 }

@@ -1,6 +1,6 @@
 "use client";
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import FsLightbox from "fslightbox-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,7 +12,7 @@ function ServiceDetails() {
 
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -21,16 +21,7 @@ function ServiceDetails() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">Data Analytics</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>
-										<Link href="/services">Services</Link>
-									</li>
-									<li>Service Details</li>
-								</ul>
+								<h1 className="breadcrumb-title">SentinelLayer: Your Invisible Compliance Brain</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -52,7 +43,7 @@ function ServiceDetails() {
 								>
 									<Image
 										src="/assets/img_placeholder/th-1/content-image-1.jpg"
-										alt="content-image-2"
+										alt="SentinelLayer architecture"
 										width={526}
 										height={450}
 										className="h-auto w-full"
@@ -63,48 +54,43 @@ function ServiceDetails() {
 								<div className="jos order-1" data-jos_animation="fade-right">
 									{/* Section Content Block */}
 									<div className="mb-6">
-										<h2>Analyze any data perfectly with AI</h2>
+										<h2>Your staff can leave. Your compliance never does.</h2>
 									</div>
 									{/* Section Content Block */}
 									<div className="text-lg leading-[1.4] lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											AI data analysis, also known as artificial intelligence
-											data analysis or AI-driven data analysis, refers to the
-											process of using artificial intelligence and machine
-											learning techniques.
+											SentinelLayer is five autonomous AI agents that monitor every beneficiary, every transaction, and every grant disbursement around the clock. When thresholds approach or compliance issues emerge, SentinelLayer alerts your team with specific numbers and recommended actions.
 										</p>
 									</div>
 									<ul className="mt-8 grid gap-x-6 gap-y-8 sm:grid-cols-2 md:grid-cols-1 xl:mt-14 xl:grid-cols-2">
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img_placeholder/th-1/trending-up-icon.svg"
-													alt="trending-up-icon"
+													src="/assets/img_placeholder/th-1-violet/trending-up-icon.svg"
+													alt="Watchdog agent"
 													width={50}
 													height={50}
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Data Preprocessing</h5>
+											<h5>Watchdog Agent</h5>
 											<p className="text-lg">
-												AI data analysis can begin, and raw data must be
-												collected, cleaned.
+												Daily monitoring of SSI, SSDI, Medi-Cal, and CalFresh thresholds for every beneficiary, with 2025 California numbers built in.
 											</p>
 										</li>
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img_placeholder/th-1/cog-icon.svg"
-													alt="cog-icon"
+													src="/assets/img_placeholder/th-1-violet/cog-icon.svg"
+													alt="Compliance agent"
 													width={50}
 													height={50}
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Predictive Analytics</h5>
+											<h5>Compliance Monitor</h5>
 											<p className="text-lg">
-												Algorithms use historical data to forecast future
-												trends, behaviors.
+												Real-time MCC blocking on every card transaction, plus 6-hour deep scans that catch patterns humans miss.
 											</p>
 										</li>
 									</ul>
@@ -126,7 +112,7 @@ function ServiceDetails() {
 							{/* Section Content Block */}
 							<div className="jos mb-10 text-center lg:mb-16 xl:mb-20">
 								<div className="mx-auto md:max-w-xl lg:max-w-4xl xl:max-w-[950px]">
-									<h2>Widely used throughout the industry for work</h2>
+									<h2>How the five SentinelLayer agents work together</h2>
 								</div>
 							</div>
 							{/* Section Content Block */}
@@ -138,7 +124,7 @@ function ServiceDetails() {
 								>
 									<Image
 										src="/assets/img_placeholder/th-1/content-image-4.jpg"
-										alt="content-image-4"
+										alt="SentinelLayer agents"
 										width={529}
 										height={500}
 										className="h-auto w-full"
@@ -153,34 +139,26 @@ function ServiceDetails() {
 									<ul className="flex flex-col gap-y-6">
 										<li>
 											<h5 className="mb-[10px]">
-												1. Businesses and Corporations:
+												1. Case Managers &amp; Program Staff:
 											</h5>
 											<p className="mb-7 last:mb-0">
-												Businesses use AI data analysis to gain competitive
-												advantages, optimize operations, &amp; make data-driven
-												decisions. This includes industries such as retail,
-												finance, manufacturing.
+												Receive daily threshold alerts with specific numbers. Review flagged expenses with risk classifications already applied. Act on recommendations, not spreadsheets.
 											</p>
 										</li>
 										<li>
 											<h5 className="mb-[10px]">
-												2. Data Scientists and Analysts:
+												2. Grant Writers &amp; Finance Officers:
 											</h5>
 											<p className="mb-7 last:mb-0">
-												Data scientists and analysts leverage AI tools and
-												algorithms to extract actionable insights from large
-												datasets. They alsouse AI for predictive modeling,
-												anomaly detection, and data visualization.
+												Weekly auto-drafted funder reports open in your inbox. Spending breakdowns by category, beneficiary impact summaries, and compliance proof — all pre-generated.
 											</p>
 										</li>
 										<li>
 											<h5 className="mb-[10px]">
-												3. Government and Public Sector:
+												3. Platform Administrators:
 											</h5>
 											<p className="mb-7 last:mb-0">
-												Government agencies use AI data analysis for various
-												purposes, including public policy development, law
-												enforcement, urban planning, and disaster.
+												Oversee fleet-wide compliance health. Export audit-ready reports. Configure custom policy rules at the organization level.
 											</p>
 										</li>
 									</ul>
@@ -201,7 +179,7 @@ function ServiceDetails() {
 							<div className="relative overflow-hidden rounded-[30px] lg:rounded-[50px]">
 								<Image
 									src="/assets/img_placeholder/th-1/funfact-image.jpg"
-									alt="funfact-image"
+									alt="SentinelLayer dashboard"
 									width={721}
 									height={784}
 									className="h-80 w-full object-cover object-center lg:h-[35rem] xl:h-full"
@@ -210,7 +188,7 @@ function ServiceDetails() {
 								<button className="absolute left-1/2 top-1/2 z-[1] -translate-x-1/2 -translate-y-1/2">
 									<div
 										onClick={() => setToggler(!toggler)}
-										className="relative flex h-[120px] w-[120px] items-center justify-center rounded-full border-[3px] border-black text-lg font-bold backdrop-blur-[2px] transition-all duration-300 hover:bg-colorOrangyRed hover:text-white"
+										className="relative flex h-[120px] w-[120px] items-center justify-center rounded-full border-[3px] border-black text-lg font-bold backdrop-blur-[2px] transition-all duration-300 hover:bg-colorViolet hover:text-white"
 									>
 										Play
 										<div className="absolute -z-[1] h-[110%] w-[110%] animate-[ping_1.5s_ease-in-out_infinite] rounded-full bg-gray-600 opacity-30"></div>
@@ -228,15 +206,13 @@ function ServiceDetails() {
 								{/* Section Content Block */}
 								<div className="mb-8 lg:mb-16 xl:mb-6">
 									<h2 className="text-white">
-										AI-powered that streamline tasks
+										Built to replace the spreadsheets nonprofits never should have used
 									</h2>
 								</div>
 								{/* Section Content Block */}
 								<div className="text-left text-lg leading-[1.4] text-white lg:text-[21px]">
 									<p className="mb-7 last:mb-0">
-										As your business grows or your AI SaaS needs change, you can
-										easily adjust your subscription level to match those needs.
-										This flexibility ensures that AI remains an asset.
+										Nonprofit staff (humans) use BenefitsSafe (the product) while SentinelLayer (the invisible brain) runs compliance checks, threshold monitoring, and reporting — all without being asked.
 									</p>
 								</div>
 								{/* Horizontal Separator */}
@@ -246,7 +222,7 @@ function ServiceDetails() {
 									{/* Counter Items */}
 									<li>
 										<h3
-											className="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-7xl xxl:text-[120px]"
+											className="text-5xl text-colorViolet md:text-6xl lg:text-7xl xl:text-7xl xxl:text-[120px]"
 											data-module="countup"
 										>
 											<span className="start-number" data-countup-number={92}>
@@ -255,14 +231,14 @@ function ServiceDetails() {
 											%
 										</h3>
 										<span className="block text-lg font-normal text-white lg:text-[21px]">
-											Customer service inquiries
+											Transactions scanned automatically
 										</span>
 									</li>
 									{/* Counter Items */}
 									{/* Counter Items */}
 									<li>
 										<h3
-											className="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-7xl xxl:text-[120px]"
+											className="text-5xl text-colorViolet md:text-6xl lg:text-7xl xl:text-7xl xxl:text-[120px]"
 											data-module="countup"
 										>
 											<span className="start-number" data-countup-number={75}>
@@ -271,7 +247,7 @@ function ServiceDetails() {
 											%
 										</h3>
 										<span className="block text-lg font-normal text-white lg:text-[21px]">
-											Using financial institutions
+											Reduction in manual review time
 										</span>
 									</li>
 									{/* Counter Items */}
@@ -297,7 +273,7 @@ function ServiceDetails() {
 								>
 									<Image
 										src="/assets/img_placeholder/th-1/content-image-1.jpg"
-										alt="content-image-2"
+										alt="Grant Reporter agent"
 										width={526}
 										height={450}
 										className="h-auto w-full"
@@ -308,48 +284,43 @@ function ServiceDetails() {
 								<div className="jos order-1" data-jos_animation="fade-right">
 									{/* Section Content Block */}
 									<div className="mb-6">
-										<h2>Manage large amounts of data</h2>
+										<h2>Grant Reporter works while you sleep</h2>
 									</div>
 									{/* Section Content Block */}
 									<div className="text-lg leading-[1.4] lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											AI data analysis also can handle vast amounts of data,
-											making it suitable for big data environments. Data
-											analysis can automate many aspects of data processing and
-											analysis
+											Every week, the Grant Reporter agent assembles disbursement summaries for every active grant. Your grant writer opens BenefitsSafe Monday morning and the report is 80% done — just add narrative and send. SentinelLayer can automate many aspects of compliance monitoring and report generation, saving your team hours every week.
 										</p>
 									</div>
 									<ul className="mt-8 grid gap-x-6 gap-y-8 sm:grid-cols-2 md:grid-cols-1 xl:mt-14 xl:grid-cols-2">
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img_placeholder/th-1/icon-orange-clock.svg"
-													alt="trending-up-icon"
+													src="/assets/img_placeholder/th-1-violet/icon-orange-clock.svg"
+													alt="Watchdog agent"
 													width={50}
 													height={50}
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Real-Time Analysis</h5>
+											<h5>Trial Monitor</h5>
 											<p className="text-lg">
-												Some AI data analysis solutions are design to process
-												making instant.
+												Watches subscription trials and sends handoff alerts 3 days before expiry. Your account manager never misses a renewal conversation.
 											</p>
 										</li>
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img_placeholder/th-1/icon-orange-cursor-click.svg"
-													alt="cog-icon"
+													src="/assets/img_placeholder/th-1-violet/icon-orange-cursor-click.svg"
+													alt="Compliance agent"
 													width={50}
 													height={50}
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Automation</h5>
+											<h5>Onboarding Coordinator</h5>
 											<p className="text-lg">
-												his leads to increased efficiency and quicker
-												decision-making.
+												Coming soon: guides new nonprofits through onboarding steps, bank connection, and first virtual card issuance — automatically.
 											</p>
 										</li>
 									</ul>
@@ -376,7 +347,7 @@ function ServiceDetails() {
 								>
 									<Image
 										src="/assets/img_placeholder/th-1/about-contact-img.jpg"
-										alt="about-contact-img"
+										alt="BenefitsSafe platform"
 										width={526}
 										height={550}
 										className="h-auto w-full"
@@ -388,11 +359,10 @@ function ServiceDetails() {
 									className="jos order-1 md:order-2"
 									data-jos_animation="fade-down"
 								>
-									&gt;
 									{/* Section Content Block */}
 									<div className="mb-8 max-w-sm md:max-w-max lg:mb-16 xl:mb-6">
 										<h2 className="text-white">
-											We always want to connect our clients
+											Ready to bring SentinelLayer to your nonprofit?
 										</h2>
 									</div>
 									{/* Section Content Block */}
@@ -404,32 +374,32 @@ function ServiceDetails() {
 										</p>
 									</div>
 									<ul className="mt-10 flex flex-col gap-6 font-dmSans text-[30px] tracking-[1.33] lg:mt-14 lg:gap-y-3 xl:mt-[70px]">
-										<li className="flex flex-col gap-x-2 leading-tight text-colorOrangyRed lg:flex-row lg:leading-normal">
+										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
 											Website:
 											<Link
 												rel="noopener noreferrer"
-												href="https://www.example.com"
-												className="text-white hover:text-colorOrangyRed"
+												href="https://benefitssafe.com"
+												className="text-white hover:text-colorViolet"
 											>
-												www.example.com
+												benefitssafe.com
 											</Link>
 										</li>
-										<li className="flex flex-col gap-x-2 leading-tight text-colorOrangyRed lg:flex-row lg:leading-normal">
+										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
 											Email:
 											<Link
-												href="mailto:yourmail@mail.com"
-												className="text-white hover:text-colorOrangyRed"
+												href="mailto:support@benefitssafe.com"
+												className="text-white hover:text-colorViolet"
 											>
-												yourmail@mail.com
+												support@benefitssafe.com
 											</Link>
 										</li>
-										<li className="flex flex-col gap-x-2 leading-tight text-colorOrangyRed lg:flex-row lg:leading-normal">
-											Phone:
+										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
+											Location:
 											<Link
-												href="tel:+1234567890"
-												className="text-white hover:text-colorOrangyRed"
+												href="#"
+												className="text-white hover:text-colorViolet"
 											>
-												(123) 456-7890
+												Oakland, California
 											</Link>
 										</li>
 									</ul>
@@ -443,7 +413,7 @@ function ServiceDetails() {
 				</section>
 				{/*...::: About Contact Section End :::... */}
 			</main>
-			<Footer_01 />
+			<Footer_02 />
 		</>
 	);
 }

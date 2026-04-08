@@ -1,12 +1,12 @@
-import Footer_01 from "@/components/footer/Footer_01";
-import Header_01 from "@/components/header/Header_01";
+import Footer_02 from "@/components/footer/Footer_02";
+import Header_02 from "@/components/header/Header_02";
 import Image from "next/image";
 import Link from "next/link";
 
 function Team() {
 	return (
 		<>
-			<Header_01 />
+			<Header_02 />
 			<main className="main-wrapper relative overflow-hidden">
 				{/*...::: Breadcrumb Section Start :::... */}
 				<section id="section-breadcrumb">
@@ -15,13 +15,7 @@ function Team() {
 						{/* Section Container */}
 						<div className="global-container">
 							<div className="breadcrumb-block">
-								<h1 className="breadcrumb-title">Our Team</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>Our Team</li>
-								</ul>
+								<h1 className="breadcrumb-title">The Team Behind BenefitsSafe</h1>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -38,7 +32,7 @@ function Team() {
 							{/* Section Content Block */}
 							<div className="jos mb-10 text-center lg:mb-16 xl:mb-20">
 								<div className="mx-auto md:max-w-xs lg:max-w-xl xl:max-w-[746px]">
-									<h2>Our team consists of a group of talents</h2>
+									<h2>We&apos;re a small, mission-driven team building nonprofit financial infrastructure</h2>
 								</div>
 							</div>
 							{/* Section Content Block */}
@@ -46,7 +40,7 @@ function Team() {
 							<ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.1"
 								>
@@ -62,18 +56,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Mr. Abraham Maslo
+											Founder & CEO
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Chief AI Officer</span>
+											<span className="text-[21px]">Fintech for nonprofits</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -95,7 +89,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -117,7 +111,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -139,7 +133,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -164,7 +158,7 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.2"
 								>
@@ -180,18 +174,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Willium Robert
+											Head of Engineering
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Data Engineer</span>
+											<span className="text-[21px]">We&apos;re hiring! Join us.</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -213,7 +207,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -235,7 +229,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -257,7 +251,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -282,7 +276,7 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.3"
 								>
@@ -298,18 +292,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Henry Fayol
+											Head of Partnerships
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Research Scientist</span>
+											<span className="text-[21px]">We&apos;re hiring! Join us.</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -331,7 +325,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -353,7 +347,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -375,7 +369,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -400,7 +394,7 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.4"
 								>
@@ -416,18 +410,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Henry Martine
+											Head of Product
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">AI Researchers</span>
+											<span className="text-[21px]">We&apos;re hiring! Join us.</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -449,7 +443,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -471,7 +465,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -493,7 +487,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -518,7 +512,7 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.5"
 								>
@@ -534,18 +528,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Jack Fox
+											Compliance Lead
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">NLP Expert</span>
+											<span className="text-[21px]">Compliance engine</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -567,7 +561,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -589,7 +583,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -611,7 +605,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -636,7 +630,7 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.6"
 								>
@@ -652,18 +646,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Adam Smith
+											Senior Engineer
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Project Manager</span>
+											<span className="text-[21px]">We&apos;re hiring! Join us.</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -685,7 +679,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -707,7 +701,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -729,7 +723,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -754,7 +748,7 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.7"
 								>
@@ -770,18 +764,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Joo Bitler
+											Open Role
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">Cyber Expert</span>
+											<span className="text-[21px]">Passionate about the vulnerable?</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -803,7 +797,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -825,7 +819,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -847,7 +841,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -872,7 +866,7 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.8"
 								>
@@ -888,18 +882,18 @@ function Team() {
 									<div className="mt-5">
 										<Link
 											href="/team-details"
-											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorOrangyRed xxl:text-[30px]"
+											className="font-dmSans text-[26px] leading-[1.33] hover:text-colorViolet xxl:text-[30px]"
 										>
-											Homi Corn
+											Open Role
 										</Link>
 										<div className="mt-3 flex flex-col justify-between gap-3 xxl:flex-row xxl:flex-wrap xxl:items-center">
-											<span className="text-[21px]">HR Manager</span>
+											<span className="text-[21px]">Passionate about the vulnerable?</span>
 											<ul className="mt-auto flex gap-x-[15px]">
 												<li>
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.facebook.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
@@ -921,7 +915,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.twitter.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
@@ -943,7 +937,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.linkedin.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
@@ -965,7 +959,7 @@ function Team() {
 													<Link
 														rel="noopener noreferrer"
 														href="http://www.instagram.com"
-														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
+														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorViolet"
 													>
 														<Image
 															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
@@ -990,21 +984,21 @@ function Team() {
 								{/* Team Member Item */}
 								{/* Team Member Item */}
 								<li
-									className="jos min-h-[400px] rounded-[20px] bg-colorLinenRuffle p-[20px]"
+									className="jos min-h-[400px] rounded-[20px] bg-white shadow-[0_4px_40px_rgba(0,0,0,0.05)] p-[20px]"
 									data-jos_animation="flip"
 									data-jos_delay="0.9"
 								>
 									<div className="flex h-full flex-col items-center justify-center text-center">
 										<div className="text-3xl font-semibold leading-[1.2] tracking-[-1px] text-black xl:text-[40px]">
-											You want to join our amazing team
+											Want to build with us?
 										</div>
 										<p className="mb-6 mt-4 text-lg leading-[1.4] xl:mb-[30px] xl:text-[21px]">
 											Specify the job you are applying for and introduce
 											yourself
 										</p>
 										<Link
-											href="/team"
-											className="button block w-full rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white"
+											href="/contact"
+											className="button block w-full rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 										>
 											Join our team
 										</Link>
@@ -1020,7 +1014,7 @@ function Team() {
 				</section>
 				{/*...::: Team Section End :::... */}
 			</main>
-			<Footer_01 />
+			<Footer_02 />
 		</>
 	);
 }
