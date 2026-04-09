@@ -59,8 +59,8 @@ function Home() {
                     <Image
                       src='/assets/img_placeholder/homepage-assets/1.png'
                       alt='BenefitsSafe grant disbursement dashboard'
-                      width={511}
-                      height={695}
+                      width={1296}
+                      height={640}
                       className='h-auto w-full'
                     />
                   </div>
@@ -527,8 +527,8 @@ function Home() {
                 <Image
                   src='/assets/img_placeholder/homepage-assets/27.png'
                   alt='BenefitsSafe grant disbursement analytics'
-                  width={1376}
-                  height={768}
+                  width={1296}
+                  height={640}
                   className='h-auto w-full'
                 />
               </div>
@@ -558,8 +558,8 @@ function Home() {
                   <Image
                     src='/assets/img_placeholder/homepage-assets/20.png'
                     alt='BenefitsSafe scales from local nonprofits to large networks'
-                    width={1376}
-                    height={768}
+                    width={526}
+                    height={450}
                     className='h-auto w-full'
                   />
                 </div>
@@ -612,8 +612,8 @@ function Home() {
                   <Image
                     src='/assets/img_placeholder/homepage-assets/28.png'
                     alt='BenefitsSafe dashboards for small, medium, and large nonprofits'
-                    width={1584}
-                    height={672}
+                    width={526}
+                    height={450}
                     className='h-auto w-full'
                   />
                 </div>
@@ -723,8 +723,8 @@ function Home() {
                     <Image
                       src='/assets/img_placeholder/homepage-assets/30.png'
                       alt='BenefitsSafe virtual card with merchant lock'
-                      width={768}
-                      height={1376}
+                      width={320}
+                      height={564}
                       className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
                     />
                   </div>
@@ -786,8 +786,8 @@ function Home() {
                     <Image
                       src='/assets/img_placeholder/homepage-assets/29.png'
                       alt='BenefitsSafe organization setup in 3 steps'
-                      width={768}
-                      height={1376}
+                      width={320}
+                      height={564}
                       className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
                     />
                   </div>
@@ -845,8 +845,8 @@ function Home() {
                     <Image
                       src='/assets/img_placeholder/homepage-assets/23.png'
                       alt='BenefitsSafe community benefits ecosystem'
-                      width={768}
-                      height={1376}
+                      width={320}
+                      height={564}
                       className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
                     />
                   </div>
@@ -1036,8 +1036,8 @@ function Home() {
                 <Image
                   src='/assets/img_placeholder/homepage-assets/35.png'
                   alt='BenefitsSafe protecting beneficiary families'
-                  width={1408}
-                  height={768}
+                  width={721}
+                  height={784}
                   className='h-80 w-full object-cover object-center lg:h-[35rem] xl:h-full'
                 />
               </div>
