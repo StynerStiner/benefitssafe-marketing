@@ -57,10 +57,10 @@ function Home() {
                   {/* Hero Image */}
                   <div className='hero-img animate-pulse overflow-hidden rounded-2xl bg-black text-right'>
                     <Image
-                      src='/assets/img_placeholder/th-2/hero-img-2.png'
-                      alt='hero-img-2'
-                      width={1296}
-                      height={640}
+                      src='/assets/img_placeholder/homepage-assets/1.png'
+                      alt='BenefitsSafe grant disbursement dashboard'
+                      width={511}
+                      height={695}
                       className='h-auto w-full'
                     />
                   </div>
@@ -525,10 +525,10 @@ function Home() {
                 data-jos_animation='zoom'
               >
                 <Image
-                  src='/assets/img_placeholder/th-1/hero-dashboard.jpg'
-                  alt='BenefitsSafe dashboard preview'
-                  width={1296}
-                  height={640}
+                  src='/assets/img_placeholder/homepage-assets/27.png'
+                  alt='BenefitsSafe grant disbursement analytics'
+                  width={1376}
+                  height={768}
                   className='h-auto w-full'
                 />
               </div>
@@ -556,10 +556,10 @@ function Home() {
                   data-jos_animation='fade-left'
                 >
                   <Image
-                    src='/assets/img_placeholder/th-1/content-image-1.jpg'
-                    alt='content-image-1'
-                    width={526}
-                    height={450}
+                    src='/assets/img_placeholder/homepage-assets/20.png'
+                    alt='BenefitsSafe scales from local nonprofits to large networks'
+                    width={1376}
+                    height={768}
                     className='h-auto w-full'
                   />
                 </div>
@@ -610,10 +610,10 @@ function Home() {
                   data-jos_animation='fade-left'
                 >
                   <Image
-                    src='/assets/img_placeholder/th-1/content-image-2.jpg'
-                    alt='content-image-2'
-                    width={526}
-                    height={450}
+                    src='/assets/img_placeholder/homepage-assets/28.png'
+                    alt='BenefitsSafe dashboards for small, medium, and large nonprofits'
+                    width={1584}
+                    height={672}
                     className='h-auto w-full'
                   />
                 </div>
@@ -719,12 +719,12 @@ function Home() {
                   className='jos order-2 mt-16 rounded-md md:order-1 md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.png')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img_placeholder/th-2/th2-content-img-1.png'
-                      alt='th2-content-img-1.png'
-                      width={320}
-                      height={564}
+                      src='/assets/img_placeholder/homepage-assets/30.png'
+                      alt='BenefitsSafe virtual card with merchant lock'
+                      width={768}
+                      height={1376}
                       className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
                     />
                   </div>
@@ -782,12 +782,12 @@ function Home() {
                   className='jos order-2 mt-16 rounded-md md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.png')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img_placeholder/th-2/th2-content-img-2.png'
-                      alt='th2-content-img-2.png'
-                      width={320}
-                      height={564}
+                      src='/assets/img_placeholder/homepage-assets/29.png'
+                      alt='BenefitsSafe organization setup in 3 steps'
+                      width={768}
+                      height={1376}
                       className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
                     />
                   </div>
@@ -841,12 +841,12 @@ function Home() {
                   className='jos order-2 mt-16 rounded-md md:order-1 md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.png')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img_placeholder/th-2/th2-content-img-3.png'
-                      alt='th2-content-img-3.png'
-                      width={320}
-                      height={564}
+                      src='/assets/img_placeholder/homepage-assets/23.png'
+                      alt='BenefitsSafe community benefits ecosystem'
+                      width={768}
+                      height={1376}
                       className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
                     />
                   </div>
@@ -1034,10 +1034,10 @@ function Home() {
               {/* Funfact Left Block */}
               <div className='relative overflow-hidden rounded-[30px] lg:rounded-[50px]'>
                 <Image
-                  src='/assets/img_placeholder/th-1/funfact-image.jpg'
-                  alt='funfact-image'
-                  width={721}
-                  height={784}
+                  src='/assets/img_placeholder/homepage-assets/35.png'
+                  alt='BenefitsSafe protecting beneficiary families'
+                  width={1408}
+                  height={768}
                   className='h-80 w-full object-cover object-center lg:h-[35rem] xl:h-full'
                 />
               </div>
@@ -1109,7 +1109,7 @@ function Home() {
                   <div className='flex flex-col gap-x-16 md:flex-row lg:gap-x-28 items-center xxl:items-baseline xl:gap-x-[134px]'>
                     <div className='h-auto w-[300px] self-center overflow-hidden rounded-[10px] lg:w-[375px] xl:h-[494px] xl:w-[526px]'>
                       <Image
-                        src='/assets/img_placeholder/th-2/testimonial-user-img-1.jpg'
+                        src='/assets/img_placeholder/homepage-assets/34.png'
                         alt='nonprofit leader testimonial'
                         width={526}
                         height={494}
@@ -1142,7 +1142,7 @@ function Home() {
                   <div className='flex flex-col gap-x-16 md:flex-row lg:gap-x-28 items-center xxl:items-baseline xl:gap-x-[134px]'>
                     <div className='h-auto w-[300px] self-center overflow-hidden rounded-[10px] lg:w-[375px] xl:h-[494px] xl:w-[526px]'>
                       <Image
-                        src='/assets/img_placeholder/th-2/testimonial-user-img-1.jpg'
+                        src='/assets/img_placeholder/homepage-assets/34.png'
                         alt='nonprofit leader testimonial'
                         width={526}
                         height={494}
@@ -1255,7 +1255,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/th-1/testimonial-img-1.jpg'
+                        src='/assets/img_placeholder/homepage-assets/9.png'
                         alt='nonprofit testimonial'
                         width={60}
                         height={60}
@@ -1291,7 +1291,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/th-1/testimonial-img-2.jpg'
+                        src='/assets/img_placeholder/homepage-assets/12.png'
                         alt='nonprofit testimonial'
                         width={60}
                         height={60}
@@ -1327,7 +1327,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/th-1/testimonial-img-3.jpg'
+                        src='/assets/img_placeholder/homepage-assets/11.png'
                         alt='nonprofit testimonial'
                         width={60}
                         height={60}
@@ -1362,7 +1362,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/th-1/testimonial-img-4.jpg'
+                        src='/assets/img_placeholder/homepage-assets/14.png'
                         alt='nonprofit testimonial'
                         width={60}
                         height={60}
@@ -1398,7 +1398,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/th-1/testimonial-img-5.jpg'
+                        src='/assets/img_placeholder/homepage-assets/15.png'
                         alt='nonprofit testimonial'
                         width={60}
                         height={60}
@@ -1434,7 +1434,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/th-1/testimonial-img-6.jpg'
+                        src='/assets/img_placeholder/homepage-assets/22.png'
                         alt='nonprofit testimonial'
                         width={60}
                         height={60}
@@ -1712,7 +1712,7 @@ function Home() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img_placeholder/th-1/blog-main-1.jpg'
+                      src='/assets/img_placeholder/homepage-assets/24.png'
                       alt='virtual card protecting SSI'
                       width={416}
                       height={320}
@@ -1755,7 +1755,7 @@ function Home() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img_placeholder/th-1/blog-main-2.jpg'
+                      src='/assets/img_placeholder/homepage-assets/26.png'
                       alt='paper check disbursements'
                       width={416}
                       height={320}
@@ -1798,7 +1798,7 @@ function Home() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img_placeholder/th-1/blog-main-3.jpg'
+                      src='/assets/img_placeholder/homepage-assets/36.png'
                       alt='SSI asset limits 2025'
                       width={416}
                       height={320}
