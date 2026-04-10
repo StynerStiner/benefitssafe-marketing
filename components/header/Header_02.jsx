@@ -8,7 +8,7 @@ const Header_02 = () => {
 
   return (
     <header
-      className='site-header site-header--absolute is--white py-3'
+      className='site-header site-header--absolute is--white py-3 border-b border-white/40 lg:border-b-0'
       id='sticky-menu'
     >
       <div className='global-container'>
