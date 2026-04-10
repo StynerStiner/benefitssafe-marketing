@@ -68,11 +68,11 @@ function Blog() {
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorViolet">
+												<h2 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
 														How Virtual Cards Protect SSI Beneficiaries from Losing Benefits
 													</Link>
-												</h5>
+												</h2>
 												<p className="mb-7 line-clamp-2 last:mb-0">
 													Learn how merchant category blocking and spending controls prevent accidental purchases that could disqualify your clients from SSI.
 												</p>
@@ -114,11 +114,11 @@ function Blog() {
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorViolet">
+												<h2 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
 														The True Cost of Paper Check Disbursements for Nonprofits
 													</Link>
-												</h5>
+												</h2>
 												<p className="mb-7 line-clamp-2 last:mb-0">
 													Paper checks take 2 weeks, create no audit trail, and cost more than you think. Here's why virtual cards are the future of nonprofit disbursement.
 												</p>
@@ -160,11 +160,11 @@ function Blog() {
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorViolet">
+												<h2 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
 														What Every Case Manager Should Know About SSI Asset Limits in 2025
 													</Link>
-												</h5>
+												</h2>
 												<p className="mb-7 line-clamp-2 last:mb-0">
 													SSI asset limits, SSDI SGA thresholds, and Medi-Cal income caps — explained in plain English with current 2025 California numbers.
 												</p>
@@ -206,11 +206,11 @@ function Blog() {
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorViolet">
+												<h2 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
 														Why Staff Turnover Doesn't Have to Mean Lost Compliance Knowledge
 													</Link>
-												</h5>
+												</h2>
 												<p className="mb-7 line-clamp-2 last:mb-0">
 													45% annual turnover in social services. Here's how autonomous monitoring preserves institutional knowledge even when staff leaves.
 												</p>
@@ -252,12 +252,12 @@ function Blog() {
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorViolet">
+												<h2 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
 														BenefitsSafe vs True Link: What's the Difference?
 														tool
 													</Link>
-												</h5>
+												</h2>
 												<p className="mb-7 line-clamp-2 last:mb-0">
 													True Link charges $12/card. We charge $49/org. Here's why per-organization pricing is better for nonprofits.
 												</p>
@@ -299,11 +299,11 @@ function Blog() {
 													</li>
 												</ul>
 												{/* Blog Post Meta */}
-												<h5 className="mb-3 mt-7 hover:text-colorViolet">
+												<h2 className="mb-3 mt-7 hover:text-colorViolet">
 													<Link href="/blog-details">
 														How to Set Up a Grant Disbursement Program in Under 24 Hours
 													</Link>
-												</h5>
+												</h2>
 												<p className="mb-7 line-clamp-2 last:mb-0">
 													Connect your bank, add beneficiaries, issue cards. A step-by-step guide to getting started with BenefitsSafe in under 24 hours.
 												</p>
@@ -406,8 +406,8 @@ function Blog() {
 												className="h-full w-full rounded-[50px] border border-[#E1E1E1] bg-white py-[15px] pl-16 pr-8 text-lg outline-none transition-all focus:border-colorViolet"
 												required=""
 											/>
-											<button
-												type="submit"
+											<button aria-label="Search"
+												type="submit" aria-label="Submit"
 												className="absolute left-[30px] top-0 h-full"
 											>
 												<Image
@@ -671,8 +671,8 @@ function Blog() {
 												className="h-[60px] w-full rounded-[50px] border border-colorCodGray bg-transparent px-10 py-[15px] text-lg outline-none transition-all placeholder:text-black focus:border-colorViolet"
 												required=""
 											/>
-											<button
-												type="submit"
+											<button aria-label="Search"
+												type="submit" aria-label="Submit"
 												className="button mt-5 block rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 											>
 												Subscribe Now

@@ -317,7 +317,7 @@ function Contact() {
 								{/* Location 1 */}
 								<div className="group absolute hidden sm:flex gap-2 sm:top-[10%] sm:left-[13%]">
 									<div className="relative w-[50px] h-[50px]">
-										<button className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
+										<button aria-label="View location" className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
 											<Image
 												src="/assets/img_placeholder/th-1/icon-gray-location-marker.svg"
 												alt="icon-gray-location-marker"
@@ -353,7 +353,7 @@ function Contact() {
 								{/* Location 2 */}
 								<div className="group absolute hidden sm:flex gap-2 sm:top-[65%] sm:left-[18%]">
 									<div className="relative w-[50px] h-[50px]">
-										<button className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
+										<button aria-label="View location" className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
 											<Image
 												src="/assets/img_placeholder/th-1/icon-gray-location-marker.svg"
 												alt="icon-gray-location-marker"
@@ -389,7 +389,7 @@ function Contact() {
 								{/* Location 3 */}
 								<div className="group absolute hidden sm:flex gap-2 sm:top-[38%] sm:left-[38%]">
 									<div className="relative w-[50px] h-[50px]">
-										<button className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
+										<button aria-label="View location" className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
 											<Image
 												src="/assets/img_placeholder/th-1/icon-gray-location-marker.svg"
 												alt="icon-gray-location-marker"
@@ -425,7 +425,7 @@ function Contact() {
 								{/* Location 4 */}
 								<div className="group absolute hidden sm:flex gap-2 sm:top-[5%]  sm:left-[61%]">
 									<div className="relative w-[50px] h-[50px]">
-										<button className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
+										<button aria-label="View location" className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
 											<Image
 												src="/assets/img_placeholder/th-1/icon-gray-location-marker.svg"
 												alt="icon-gray-location-marker"
@@ -461,7 +461,7 @@ function Contact() {
 								{/* Location 5 */}
 								<div className="group absolute hidden sm:flex gap-2 sm:top-[72%] sm:left-[88%]">
 									<div className="relative w-[50px] h-[50px]">
-										<button className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
+										<button aria-label="View location" className="group flex justify-center items-center w-[50px] h-[50px] relative transition-all duration-300">
 											<Image
 												src="/assets/img_placeholder/th-1/icon-gray-location-marker.svg"
 												alt="icon-gray-location-marker"

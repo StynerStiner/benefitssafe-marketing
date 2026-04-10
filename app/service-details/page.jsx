@@ -73,7 +73,7 @@ function ServiceDetails() {
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Watchdog Agent</h5>
+											<h3>Watchdog Agent</h3>
 											<p className="text-lg">
 												Daily monitoring of SSI, SSDI, Medi-Cal, and CalFresh thresholds for every beneficiary, with 2025 California numbers built in.
 											</p>
@@ -88,7 +88,7 @@ function ServiceDetails() {
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Compliance Monitor</h5>
+											<h3>Compliance Monitor</h3>
 											<p className="text-lg">
 												Real-time MCC blocking on every card transaction, plus 6-hour deep scans that catch patterns humans miss.
 											</p>
@@ -138,25 +138,25 @@ function ServiceDetails() {
 								>
 									<ul className="flex flex-col gap-y-6">
 										<li>
-											<h5 className="mb-[10px]">
+											<h3 className="mb-[10px]">
 												1. Case Managers &amp; Program Staff:
-											</h5>
+											</h3>
 											<p className="mb-7 last:mb-0">
 												Receive daily threshold alerts with specific numbers. Review flagged expenses with risk classifications already applied. Act on recommendations, not spreadsheets.
 											</p>
 										</li>
 										<li>
-											<h5 className="mb-[10px]">
+											<h3 className="mb-[10px]">
 												2. Grant Writers &amp; Finance Officers:
-											</h5>
+											</h3>
 											<p className="mb-7 last:mb-0">
 												Weekly auto-drafted funder reports open in your inbox. Spending breakdowns by category, beneficiary impact summaries, and compliance proof — all pre-generated.
 											</p>
 										</li>
 										<li>
-											<h5 className="mb-[10px]">
+											<h3 className="mb-[10px]">
 												3. Platform Administrators:
-											</h5>
+											</h3>
 											<p className="mb-7 last:mb-0">
 												Oversee fleet-wide compliance health. Export audit-ready reports. Configure custom policy rules at the organization level.
 											</p>
@@ -300,7 +300,7 @@ function ServiceDetails() {
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Trial Monitor</h5>
+											<h3>Trial Monitor</h3>
 											<p className="text-lg">
 												Watches subscription trials and sends handoff alerts 3 days before expiry. Your account manager never misses a renewal conversation.
 											</p>
@@ -315,7 +315,7 @@ function ServiceDetails() {
 													className="h-full w-full object-cover"
 												/>
 											</div>
-											<h5>Onboarding Coordinator</h5>
+											<h3>Onboarding Coordinator</h3>
 											<p className="text-lg">
 												Coming soon: guides new nonprofits through onboarding steps, bank connection, and first virtual card issuance — automatically.
 											</p>

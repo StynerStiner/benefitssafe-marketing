@@ -64,9 +64,9 @@ function VirtualCardsSsi() {
 												</li>
 											</ul>
 											{/* Blog Post Meta */}
-											<h5 className="mb-3 mt-5">
+											<h2 className="mb-3 mt-5">
 												How Virtual Cards Protect SSI Beneficiaries from Losing Benefits
-											</h5>
+											</h2>
 											<p className="mb-7 last:mb-0">
 												For nonprofits managing restricted grant funds, every dollar disbursed carries a hidden risk: one wrong purchase could push a beneficiary over their SSI asset limit and cost them their benefits. Virtual debit cards with built-in spending controls are the modern solution — but they only work if you understand why traditional cash or reimbursement models fail.
 											</p>
@@ -393,8 +393,8 @@ function VirtualCardsSsi() {
 													{/* Form Single Input */}
 												</div>
 												<div className="">
-													<button
-														type="submit"
+													<button aria-label="Search"
+														type="submit" aria-label="Submit"
 														className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 													>
 														Send your message
@@ -425,8 +425,8 @@ function VirtualCardsSsi() {
 												className="h-full w-full rounded-[50px] border border-[#E1E1E1] bg-white py-[15px] pl-16 pr-8 text-lg outline-none transition-all focus:border-colorViolet"
 												required=""
 											/>
-											<button
-												type="submit"
+											<button aria-label="Search"
+												type="submit" aria-label="Submit"
 												className="absolute left-[30px] top-0 h-full"
 											>
 												<Image
@@ -690,8 +690,8 @@ function VirtualCardsSsi() {
 												className="h-[60px] w-full rounded-[50px] border border-colorCodGray bg-transparent px-10 py-[15px] text-lg outline-none transition-all placeholder:text-black focus:border-colorViolet"
 												required=""
 											/>
-											<button
-												type="submit"
+											<button aria-label="Search"
+												type="submit" aria-label="Submit"
 												className="button mt-5 block rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 											>
 												Subscribe Now

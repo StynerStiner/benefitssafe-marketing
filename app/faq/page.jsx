@@ -51,7 +51,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(0)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>What is BenefitsSafe?</h5>
+										<h3>What is BenefitsSafe?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
@@ -77,7 +77,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(1)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>How does BenefitsSafe protect beneficiaries?</h5>
+										<h3>How does BenefitsSafe protect beneficiaries?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
@@ -103,7 +103,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(2)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>Is BenefitsSafe a bank?</h5>
+										<h3>Is BenefitsSafe a bank?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
@@ -129,7 +129,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(3)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>Can I use BenefitsSafe for Special Needs Trusts?</h5>
+										<h3>Can I use BenefitsSafe for Special Needs Trusts?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
@@ -155,7 +155,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(4)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>Do you support ABLE accounts?</h5>
+										<h3>Do you support ABLE accounts?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
@@ -181,7 +181,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(5)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>What happens after my 14-day trial?</h5>
+										<h3>What happens after my 14-day trial?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
@@ -207,7 +207,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(6)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>Is my data secure?</h5>
+										<h3>Is my data secure?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
@@ -233,7 +233,7 @@ const Faq_1 = () => {
 									onClick={() => handleAccordion(7)}
 								>
 									<div className="accordion-header flex items-center justify-between text-xl leading-[1.2] -tracking-[0.5px] lg:text-[28px]">
-										<h5>Can multiple staff members use BenefitsSafe?</h5>
+										<h3>Can multiple staff members use BenefitsSafe?</h3>
 										<div className="accordion-icon">
 											<Image
 												src="/assets/img_placeholder/plus.svg"
