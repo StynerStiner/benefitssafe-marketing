@@ -37,7 +37,7 @@ function PaperCheckCosts() {
 										<article className="jos overflow-hidden bg-white">
 											<div className="mb-7 block overflow-hidden rounded-[10px] max-h-[700px]">
 												<Image
-													src="/assets/img_placeholder/homepage-assets/26.png"
+													src="/assets/img_placeholder/homepage-assets/26.webp"
 													alt="The True Cost of Paper Check Disbursements"
 													width={856}
 													height={700}
@@ -512,7 +512,7 @@ function PaperCheckCosts() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img_placeholder/homepage-assets/26.png"
+														src="/assets/img_placeholder/homepage-assets/26.webp"
 														alt="blog-recent-img-1"
 														width={150}
 														height={130}
@@ -549,7 +549,7 @@ function PaperCheckCosts() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img_placeholder/homepage-assets/26.png"
+														src="/assets/img_placeholder/homepage-assets/26.webp"
 														alt="blog-recent-img-2"
 														width={150}
 														height={130}
@@ -586,7 +586,7 @@ function PaperCheckCosts() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img_placeholder/homepage-assets/36.png"
+														src="/assets/img_placeholder/homepage-assets/36.webp"
 														alt="blog-recent-img-3"
 														width={150}
 														height={130}

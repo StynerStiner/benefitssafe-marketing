@@ -57,7 +57,7 @@ function Home() {
                   {/* Hero Image */}
                   <div className='hero-img animate-pulse overflow-hidden rounded-2xl bg-black text-right'>
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/1a.png'
+                      src='/assets/img_placeholder/homepage-assets/1a.webp'
                       alt='BenefitsSafe grant disbursement dashboard'
                       width={511}
                       height={695}
@@ -525,7 +525,7 @@ function Home() {
                 data-jos_animation='zoom'
               >
                 <Image
-                  src='/assets/img_placeholder/homepage-assets/27.png'
+                  src='/assets/img_placeholder/homepage-assets/27.webp'
                   alt='BenefitsSafe grant disbursement analytics'
                   width={1296}
                   height={640}
@@ -556,7 +556,7 @@ function Home() {
                   data-jos_animation='fade-left'
                 >
                   <Image
-                    src='/assets/img_placeholder/homepage-assets/20.png'
+                    src='/assets/img_placeholder/homepage-assets/20.webp'
                     alt='BenefitsSafe scales from local nonprofits to large networks'
                     width={526}
                     height={450}
@@ -610,7 +610,7 @@ function Home() {
                   data-jos_animation='fade-left'
                 >
                   <Image
-                    src='/assets/img_placeholder/homepage-assets/28.png'
+                    src='/assets/img_placeholder/homepage-assets/28.webp'
                     alt='BenefitsSafe dashboards for small, medium, and large nonprofits'
                     width={526}
                     height={450}
@@ -721,7 +721,7 @@ function Home() {
                 >
                   <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.webp')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/30.png'
+                      src='/assets/img_placeholder/homepage-assets/30.webp'
                       alt='BenefitsSafe virtual card with merchant lock'
                       width={320}
                       height={494}
@@ -784,7 +784,7 @@ function Home() {
                 >
                   <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.webp')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/29.png'
+                      src='/assets/img_placeholder/homepage-assets/29.webp'
                       alt='BenefitsSafe organization setup in 3 steps'
                       width={320}
                       height={494}
@@ -843,7 +843,7 @@ function Home() {
                 >
                   <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.webp')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/23.png'
+                      src='/assets/img_placeholder/homepage-assets/23.webp'
                       alt='BenefitsSafe community benefits ecosystem'
                       width={320}
                       height={494}
@@ -1034,7 +1034,7 @@ function Home() {
               {/* Funfact Left Block */}
               <div className='relative overflow-hidden rounded-[30px] lg:rounded-[50px]'>
                 <Image
-                  src='/assets/img_placeholder/homepage-assets/35.png'
+                  src='/assets/img_placeholder/homepage-assets/35.webp'
                   alt='BenefitsSafe protecting beneficiary families'
                   width={721}
                   height={784}
@@ -1714,7 +1714,7 @@ function Home() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/24.png'
+                      src='/assets/img_placeholder/homepage-assets/24.webp'
                       alt='virtual card protecting SSI'
                       width={416}
                       height={320}
@@ -1757,7 +1757,7 @@ function Home() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/26.png'
+                      src='/assets/img_placeholder/homepage-assets/26.webp'
                       alt='paper check disbursements'
                       width={416}
                       height={320}
@@ -1800,7 +1800,7 @@ function Home() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/36.png'
+                      src='/assets/img_placeholder/homepage-assets/36.webp'
                       alt='SSI asset limits 2025'
                       width={416}
                       height={320}

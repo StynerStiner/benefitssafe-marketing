@@ -9,6 +9,7 @@ const LogoDark = () => {
           src='/assets/img_placeholder/benefitssafe-logo/benefitssafe-logo-blue.webp'
           alt='BenefitsSafe'
           fill
+          sizes="48px"
           className='object-contain'
           priority
         />
