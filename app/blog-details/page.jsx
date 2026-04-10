@@ -37,7 +37,7 @@ function BlogDetails() {
 										<article className="jos overflow-hidden bg-white">
 											<div className="mb-7 block overflow-hidden rounded-[10px]">
 												<Image
-													src="/assets/img_placeholder/th-1/blog-main-1.jpg"
+													src="/assets/img_placeholder/homepage-assets/24.png"
 													alt="Virtual cards protecting SSI beneficiaries"
 													width={856}
 													height={540}
@@ -51,7 +51,7 @@ function BlogDetails() {
 														href="/blog-details"
 														className="hover:text-colorViolet"
 													>
-														Business
+														Grant Management
 													</Link>
 												</li>
 												<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
@@ -98,7 +98,7 @@ function BlogDetails() {
 												<li>
 													<div className="overflow-hidden rounded-[10px]">
 														<Image
-															src="/assets/img_placeholder/th-1/blog-inner-image.jpg"
+															src="/assets/img_placeholder/homepage-assets/25.png"
 															alt="SSI compliance workflow"
 															width={100}
 															height={100}
@@ -241,7 +241,7 @@ function BlogDetails() {
 														{/* Comment User Image */}
 														<div className="h-[80px] w-[80px] overflow-hidden rounded-full">
 															<Image
-																src="/assets/img_placeholder/th-1/blog-comment-large-user-img-1.jpg"
+																src="/assets/img_placeholder/homepage-assets/face-3.jpg"
 																alt="blog-comment-large-user-img-1"
 																width={80}
 																height={80}
@@ -277,7 +277,7 @@ function BlogDetails() {
 																{/* Comment User Image */}
 																<div className="h-[50px] w-[50px] overflow-hidden rounded-full">
 																	<Image
-																		src="/assets/img_placeholder/th-1/blog-comment-small-user-img-1.jpg"
+																		src="/assets/img_placeholder/homepage-assets/face-4.jpg"
 																		alt="blog-comment-large-user-img-1"
 																		width={50}
 																		height={50}
@@ -512,7 +512,7 @@ function BlogDetails() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img_placeholder/th-1/blog-recent-img-1.jpg"
+														src="/assets/img_placeholder/homepage-assets/24.png"
 														alt="blog-recent-img-1"
 														width={150}
 														height={130}
@@ -549,7 +549,7 @@ function BlogDetails() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img_placeholder/th-1/blog-recent-img-2.jpg"
+														src="/assets/img_placeholder/homepage-assets/26.png"
 														alt="blog-recent-img-2"
 														width={150}
 														height={130}
@@ -586,7 +586,7 @@ function BlogDetails() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img_placeholder/th-1/blog-recent-img-3.jpg"
+														src="/assets/img_placeholder/homepage-assets/36.png"
 														alt="blog-recent-img-3"
 														width={150}
 														height={130}
@@ -633,7 +633,7 @@ function BlogDetails() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Article
+													SSI Compliance
 												</Link>
 											</li>
 											<li>
@@ -641,7 +641,7 @@ function BlogDetails() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Business
+													Grant Management
 												</Link>
 											</li>
 											<li>
@@ -649,7 +649,7 @@ function BlogDetails() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Digital
+													Virtual Cards
 												</Link>
 											</li>
 											<li>
@@ -657,7 +657,7 @@ function BlogDetails() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Technology
+													Nonprofit Operations
 												</Link>
 											</li>
 											<li>
@@ -665,7 +665,7 @@ function BlogDetails() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													UI/UX
+													Medi-Cal
 												</Link>
 											</li>
 										</ul>

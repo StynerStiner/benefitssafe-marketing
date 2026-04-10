@@ -20,12 +20,6 @@ function Services() {
 						<div className="global-container">
 							<div className="breadcrumb-block">
 								<h1 className="breadcrumb-title">Our Services</h1>
-								<ul className="breadcrumb-nav">
-									<li>
-										<Link href="/">Home</Link>
-									</li>
-									<li>Our Services</li>
-								</ul>
 							</div>
 						</div>
 						{/* Section Container */}
@@ -42,7 +36,7 @@ function Services() {
 							{/* Section Content Block */}
 							<div className="jos mb-10 text-center lg:mb-16 xl:mb-20">
 								<div className="mx-auto max-w-md lg:max-w-xl xl:max-w-[950px]">
-									<h2>We provide smart AI solutions for all tasks</h2>
+									<h2>Everything nonprofits need to disburse restricted funds safely</h2>
 								</div>
 							</div>
 							{/* Section Content Block */}
@@ -58,7 +52,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-1.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-1.svg"
 											alt="service-icon-orange-1"
 											width={70}
 											height={70}
@@ -67,7 +61,7 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
 											Resource Flexibility
@@ -79,7 +73,7 @@ function Services() {
 										enforce curfews from one dashboard.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -89,7 +83,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -108,7 +102,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-2.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-2.svg"
 											alt="service-icon-orange-1"
 											width={70}
 											height={70}
@@ -117,7 +111,7 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
 											Managed Services
@@ -129,7 +123,7 @@ function Services() {
 										its grant, category, and beneficiary.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -139,7 +133,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -160,7 +154,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-3.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-3.svg"
 											alt="service-icon-orange-3"
 											width={70}
 											height={70}
@@ -169,7 +163,7 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
 											Web-Based Access
@@ -181,7 +175,7 @@ function Services() {
 										reports generated automatically.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -191,7 +185,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -210,7 +204,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-4.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-4.svg"
 											alt="service-icon-orange-4"
 											width={70}
 											height={70}
@@ -219,7 +213,7 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
 											Resource Flexibility
@@ -231,7 +225,7 @@ function Services() {
 										one click. Full audit trail included.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -241,7 +235,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -260,7 +254,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-5.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-5.svg"
 											alt="service-icon-orange-5"
 											width={70}
 											height={70}
@@ -269,18 +263,18 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
-											Anomaly Detection
+											Threshold Monitoring
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
-										AI SaaS can analyze IoT sensor data to detect predict
-										equipment failures.
+										Detect when beneficiaries approach SSI asset limits. Get alerts
+										before problems happen.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -290,7 +284,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -309,7 +303,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-6.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-6.svg"
 											alt="service-icon-orange-6"
 											width={70}
 											height={70}
@@ -318,10 +312,10 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
-											Predictive Analytics
+											Funder Reporting
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
@@ -330,7 +324,7 @@ function Services() {
 										snapshots ready to send.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -340,7 +334,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -361,7 +355,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-7.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-7.svg"
 											alt="service-icon-orange-7"
 											width={70}
 											height={70}
@@ -370,10 +364,10 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
-											Speech Recognition
+											Beneficiary Onboarding
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
@@ -382,7 +376,7 @@ function Services() {
 										beneficiary sees only their own data.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -392,7 +386,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -411,7 +405,7 @@ function Services() {
 											height={70}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/service-icon-orange-8.svg"
+											src="/assets/img_placeholder/th-1-violet/service-icon-orange-8.svg"
 											alt="service-icon-orange-8"
 											width={70}
 											height={70}
@@ -420,10 +414,10 @@ function Services() {
 									</div>
 									<h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
 										<Link
-											href="/service-details"
+											href="#"
 											className="hover:text-colorViolet"
 										>
-											Computer Vision
+											Immutable Audit Trail
 										</Link>
 									</h3>
 									<p className="mb-12 duration-300 group-hover:text-white">
@@ -432,7 +426,7 @@ function Services() {
 										login events are permanently recorded.
 									</p>
 									<Link
-										href="/service-details"
+										href="#"
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
@@ -442,7 +436,7 @@ function Services() {
 											height={30}
 										/>
 										<Image
-											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1-violet/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -480,16 +474,16 @@ function Services() {
 									{/* Section Content Block */}
 									<div className="text-lg leading-[1.4] lg:text-[21px]">
 										<p className="mb-7 last:mb-0">
-											Our AI SaaS solutions can be quickly deployed, enabling
-											users to start benefiting from AI capabilities without
-											lengthy setup and development times in fast-paced
-											industries.
+											BenefitsSafe can be set up in under 24 hours, enabling
+											nonprofits to start disbursing funds compliantly without
+											lengthy onboarding or complex integrations in mission-critical
+											nonprofit operations.
 										</p>
 										<Link
-											href="/faq-1"
+											href="/contact"
 											className="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorViolet hover:border-colorViolet hover:text-white"
 										>
-											Ask you questions
+											Ask a Question
 										</Link>
 									</div>
 								</div>
@@ -511,7 +505,7 @@ function Services() {
 												onClick={() => handleAccordion(0)}
 												className="accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]"
 											>
-												<p>How do I start AI SaaS?</p>
+												<p>How do I get started with BenefitsSafe?</p>
 												<div className="accordion-icon">
 													<Image
 														src="/assets/img_placeholder/plus.svg"
@@ -523,9 +517,9 @@ function Services() {
 											</div>
 											<div className="accordion-content text-[#2C2C2C]">
 												<p>
-													Go to the our official website and require users to
-													create an account. You ll need to provide some basic
-													information and agree to our terms and conditions.
+													Sign up at benefitssafe.com and
+													create your organization. You'll need to provide your
+													EIN, connect a bank account, and you're ready to issue cards.
 												</p>
 											</div>
 										</li>
@@ -540,7 +534,7 @@ function Services() {
 												onClick={() => handleAccordion(1)}
 												className="accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]"
 											>
-												<p>Can I customize AI SaaS solutions?</p>
+												<p>Can I customize compliance rules for my state?</p>
 												<div className="accordion-icon">
 													<Image
 														src="/assets/img_placeholder/plus.svg"
@@ -552,9 +546,9 @@ function Services() {
 											</div>
 											<div className="accordion-content text-[#2C2C2C]">
 												<p>
-													Go to the our official website and require users to
-													create an account. You ll need to provide some basic
-													information and agree to our terms and conditions.
+													Sign up at benefitssafe.com and
+													create your organization. You'll need to provide your
+													EIN, connect a bank account, and you're ready to issue cards.
 												</p>
 											</div>
 										</li>
@@ -569,7 +563,7 @@ function Services() {
 												onClick={() => handleAccordion(2)}
 												className="accordion-header flex items-center justify-between font-dmSans text-xl font-bold leading-[1.2] -tracking-[0.5px] text-black lg:text-[28px]"
 											>
-												<p>How can AI benefit my business?</p>
+												<p>How does BenefitsSafe protect beneficiaries?</p>
 												<div className="accordion-icon">
 													<Image
 														src="/assets/img_placeholder/plus.svg"
@@ -581,9 +575,9 @@ function Services() {
 											</div>
 											<div className="accordion-content text-[#2C2C2C]">
 												<p>
-													Go to the our official website and require users to
-													create an account. You ll need to provide some basic
-													information and agree to our terms and conditions.
+													Sign up at benefitssafe.com and
+													create your organization. You'll need to provide your
+													EIN, connect a bank account, and you're ready to issue cards.
 												</p>
 											</div>
 										</li>
@@ -623,21 +617,20 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img_placeholder/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1-violet/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
 										/>
 									</div>
 									<p>
-										“This AI SaaS tool has revolutionized the way we process and
-										analyze data. This is a game-changer for our business.”
+										&ldquo;We switched from paper checks to virtual cards and cut our disbursement time from 2 weeks to 2 minutes.&rdquo;
 									</p>
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img_placeholder/th-1/testimonial-img-1.jpg"
-												alt="testimonial-img"
+												src="/assets/img_placeholder/homepage-assets/face-1.jpg"
+												alt="Finance Director testimonial"
 												width={60}
 												height={60}
 												className="h-full w-full object-cover object-center"
@@ -645,10 +638,10 @@ function Services() {
 										</div>
 										<div className="flex flex-col gap-y-1">
 											<span className="block text-lg font-semibold leading-[1.6]">
-												Max Weber
+												Finance Director
 											</span>
 											<span className="block text-sm font-light leading-[1.4]">
-												HR Manager
+												Community Foundation
 											</span>
 										</div>
 									</div>
@@ -662,22 +655,20 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img_placeholder/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1-violet/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
 										/>
 									</div>
 									<p>
-										It answers immediately, and we ve seen a significant
-										reduction in response time. Our customers love it and so do
-										we!
+										&ldquo;The free tier gave us everything we needed to start. When we grew past 10 beneficiaries, upgrading was a no-brainer.&rdquo;
 									</p>
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img_placeholder/th-1/testimonial-img-2.jpg"
-												alt="testimonial-img"
+												src="/assets/img_placeholder/homepage-assets/face-2.jpg"
+												alt="Executive Director testimonial"
 												width={60}
 												height={60}
 												className="h-full w-full object-cover object-center"
@@ -685,10 +676,10 @@ function Services() {
 										</div>
 										<div className="flex flex-col gap-y-1">
 											<span className="block text-lg font-semibold leading-[1.6]">
-												Douglas Smith
+												Executive Director
 											</span>
 											<span className="block text-sm font-light leading-[1.4]">
-												Businessman
+												Mutual Aid Collective
 											</span>
 										</div>
 									</div>
@@ -702,22 +693,20 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img_placeholder/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1-violet/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
 										/>
 									</div>
 									<p>
-										It is accurate, fast and supports multiple languages
-										support. It is a must for any international business
-										success.
+										&ldquo;Our last case manager left with six months of client knowledge. With BenefitsSafe, the system remembers everything.&rdquo;
 									</p>
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img_placeholder/th-1/testimonial-img-3.jpg"
-												alt="testimonial-img"
+												src="/assets/img_placeholder/homepage-assets/face-3.jpg"
+												alt="Operations Manager testimonial"
 												width={60}
 												height={60}
 												className="h-full w-full object-cover object-center"
@@ -725,10 +714,10 @@ function Services() {
 										</div>
 										<div className="flex flex-col gap-y-1">
 											<span className="block text-lg font-semibold leading-[1.6]">
-												Abraham Maslo
+												Operations Manager
 											</span>
 											<span className="block text-sm font-light leading-[1.4]">
-												Founder @ Marketing Company
+												Social Services Agency
 											</span>
 										</div>
 									</div>
@@ -742,22 +731,20 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img_placeholder/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1-violet/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
 										/>
 									</div>
 									<p>
-										Security is a top concern for us, and AI SaaS takes it
-										seriously. Its a reassuring layer of protection for our
-										organization.
+										&ldquo;True Link wanted $600/month for 50 cards. BenefitsSafe gives us 50 cards for $49.&rdquo;
 									</p>
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img_placeholder/th-1/testimonial-img-4.jpg"
-												alt="testimonial-img"
+												src="/assets/img_placeholder/homepage-assets/face-4.jpg"
+												alt="Treasurer testimonial"
 												width={60}
 												height={60}
 												className="h-full w-full object-cover object-center"
@@ -765,10 +752,10 @@ function Services() {
 										</div>
 										<div className="flex flex-col gap-y-1">
 											<span className="block text-lg font-semibold leading-[1.6]">
-												Jack Fayol
+												Treasurer
 											</span>
 											<span className="block text-sm font-light leading-[1.4]">
-												HR Manager
+												Faith-Based Nonprofit
 											</span>
 										</div>
 									</div>
@@ -782,21 +769,20 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img_placeholder/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1-violet/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
 										/>
 									</div>
 									<p>
-										We were concerned about integrating their APIs were well
-										documented, and their support team was super cool.
+										&ldquo;We used to spend 20 hours a month on grant compliance reports. Now they&apos;re ready when I log in Monday morning.&rdquo;
 									</p>
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img_placeholder/th-1/testimonial-img-5.jpg"
-												alt="testimonial-img"
+												src="/assets/img_placeholder/homepage-assets/face-5.jpg"
+												alt="Program Director testimonial"
 												width={60}
 												height={60}
 												className="h-full w-full object-cover object-center"
@@ -804,10 +790,10 @@ function Services() {
 										</div>
 										<div className="flex flex-col gap-y-1">
 											<span className="block text-lg font-semibold leading-[1.6]">
-												Karen Lynn
+												Program Director
 											</span>
 											<span className="block text-sm font-light leading-[1.4]">
-												Software Engineer
+												Housing Nonprofit
 											</span>
 										</div>
 									</div>
@@ -821,21 +807,20 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img_placeholder/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1-violet/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
 										/>
 									</div>
 									<p>
-										The return on investment has exceeded our expectations. its
-										an investment in the future of our business.
+										&ldquo;A beneficiary&apos;s family deposited a birthday check that almost pushed her over the SSI limit. BenefitsSafe caught it before we did.&rdquo;
 									</p>
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img_placeholder/th-1/testimonial-img-6.jpg"
-												alt="testimonial-img"
+												src="/assets/img_placeholder/homepage-assets/face-6.jpg"
+												alt="Case Manager testimonial"
 												width={60}
 												height={60}
 												className="h-full w-full object-cover object-center"
@@ -843,10 +828,10 @@ function Services() {
 										</div>
 										<div className="flex flex-col gap-y-1">
 											<span className="block text-lg font-semibold leading-[1.6]">
-												Henry Ochi
+												Case Manager
 											</span>
 											<span className="block text-sm font-light leading-[1.4]">
-												Bank Manager
+												Disability Services
 											</span>
 										</div>
 									</div>

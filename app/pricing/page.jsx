@@ -264,7 +264,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Regression Models
+														Compliance Automation
 													</li>
 												</ul>
 												{/* Price Info List */}
@@ -374,7 +374,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Regression Models
+														Compliance Automation
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -393,7 +393,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Time Series Models
+														Funder-ready Reports
 													</li>
 												</ul>
 												{/* Price Info List */}
@@ -503,7 +503,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Regression Models
+														Compliance Automation
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -522,7 +522,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Time Series Models
+														Funder-ready Reports
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -541,7 +541,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Clustering models
+														Multi-org Management
 													</li>
 												</ul>
 												{/* Price Info List */}
@@ -748,7 +748,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Regression Models
+														Compliance Automation
 													</li>
 												</ul>
 												{/* Price Info List */}
@@ -856,7 +856,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Regression Models
+														Compliance Automation
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -875,7 +875,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Time Series Models
+														Funder-ready Reports
 													</li>
 												</ul>
 												{/* Price Info List */}
@@ -983,7 +983,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Regression Models
+														Compliance Automation
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -1002,7 +1002,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Time Series Models
+														Funder-ready Reports
 													</li>
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
@@ -1021,7 +1021,7 @@ function Pricing() {
 																className="absolute inset-0 left-0 top-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
 															/>
 														</div>
-														Clustering models
+														Multi-org Management
 													</li>
 												</ul>
 												{/* Price Info List */}

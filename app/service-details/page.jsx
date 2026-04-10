@@ -393,7 +393,7 @@ function ServiceDetails() {
 										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
 											Location:
 											<Link
-												href="#"
+												href="/contact"
 												className="text-white hover:text-colorViolet"
 											>
 												Oakland, California

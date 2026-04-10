@@ -154,22 +154,6 @@ const Footer_02 = () => {
                     </li>
                     <li>
                       <Link
-                        href='/team'
-                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
-                      >
-                        Team
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href='/blog'
-                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
-                      >
-                        Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
                         href='/faq'
                         className='transition-all duration-300 ease-linear hover:text-colorViolet'
                       >

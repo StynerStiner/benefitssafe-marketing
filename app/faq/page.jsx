@@ -271,8 +271,8 @@ const Faq_1 = () => {
 									data-jos_animation="fade-left"
 								>
 									<Image
-										src="/assets/img_placeholder/th-1/about-contact-img.jpg"
-										alt="BenefitsSafe team"
+										src="/assets/img_placeholder/faq.png"
+										alt="BenefitsSafe FAQ"
 										width={526}
 										height={550}
 										className="h-auto w-full"
@@ -284,7 +284,6 @@ const Faq_1 = () => {
 									className="jos order-1 md:order-2"
 									data-jos_animation="fade-down"
 								>
-									&gt;
 									{/* Section Content Block */}
 									<div className="mb-8 max-w-sm md:max-w-max lg:mb-16 xl:mb-6">
 										<h2 className="text-white">
@@ -320,7 +319,7 @@ const Faq_1 = () => {
 										<li className="flex flex-col gap-x-2 leading-tight text-colorViolet lg:flex-row lg:leading-normal">
 											Location:
 											<Link
-												href="#"
+												href="/contact"
 												className="text-white hover:text-colorViolet"
 											>
 												Oakland, California

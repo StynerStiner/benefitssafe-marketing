@@ -57,10 +57,10 @@ function Home() {
                   {/* Hero Image */}
                   <div className='hero-img animate-pulse overflow-hidden rounded-2xl bg-black text-right'>
                     <Image
-                      src='/assets/img_placeholder/homepage-assets/1.png'
+                      src='/assets/img_placeholder/homepage-assets/1a.png'
                       alt='BenefitsSafe grant disbursement dashboard'
-                      width={1296}
-                      height={640}
+                      width={511}
+                      height={695}
                       className='h-auto w-full'
                     />
                   </div>
@@ -82,7 +82,7 @@ function Home() {
             <div className='global-container'>
               <div className='jos mx-auto mb-10 max-w-[715px] text-center lg:mb-12'>
                 <p className='text-lg'>
-                  Trusted by nonprofits and fiscal sponsors across the country
+                  Real-time monitoring, alerts, and compliance tracking — every minute of every day
                 </p>
               </div>
               <div className='jos brand-slider' data-jos_animation='fade'>
@@ -102,74 +102,74 @@ function Home() {
                 >
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-1.png'
-                      alt='Nonprofit partner'
-                      width={180}
-                      height={38}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_1. Clock Time, Alarm, Stopwatch, Countdown, Timer.png'
+                      alt='Real-time monitoring'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-2.png'
-                      alt='Nonprofit partner'
-                      width={183}
-                      height={35}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_2. Calendar Date, Event, Schedule, Reminder, Planner.png'
+                      alt='Grant scheduling'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-3.png'
-                      alt='Nonprofit partner'
-                      width={172}
-                      height={35}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_7. Alarm Bell, Clock, Bell, Alert, Time.png'
+                      alt='Threshold alerts'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-4.png'
-                      alt='Nonprofit partner'
-                      width={175}
-                      height={30}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_11. Task Agenda, To-do, Checklist, Assignment, Agenda.png'
+                      alt='Compliance checklist'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-5.png'
-                      alt='Nonprofit partner'
-                      width={168}
-                      height={36}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_6. Planner Schedule, Agenda, Calendar, Task, Reminder.png'
+                      alt='Grant reporting'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-1.png'
-                      alt='Nonprofit partner'
-                      width={180}
-                      height={38}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_10. Reminder Alert, Notification, Alarm, Schedule, Reminder .png'
+                      alt='Benefit alerts'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-2.png'
-                      alt='Nonprofit partner'
-                      width={183}
-                      height={35}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_12. Event Calendar, Ticket, Calendar, Invitation, Stage.png'
+                      alt='Event tracking'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img_placeholder/th-1/brand-3.png'
-                      alt='Nonprofit partner'
-                      width={172}
-                      height={35}
-                      className='max-w-full'
+                      src='/assets/img_placeholder/03-two-tone/00_4. Schedule Calendar, Date, Event, Schedule, Reminder.png'
+                      alt='Disbursement scheduling'
+                      width={80}
+                      height={80}
+                      className='max-w-[80px]'
                     />
                   </SwiperSlide>
                 </Swiper>
@@ -313,7 +313,7 @@ function Home() {
                     />
                   </div>
                   <h3 className='mb-4 block font-clashDisplay text-xl font-medium leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]'>
-                    <Link href='/service-details' className='hover:text-colorViolet'>
+                    <Link href='#' className='hover:text-colorViolet'>
                       Virtual Card Issuance
                     </Link>
                   </h3>
@@ -323,7 +323,7 @@ function Home() {
                     enforce curfews &mdash; all through one dashboard.
                   </p>
                   <Link
-                    href='/service-details'
+                    href='#'
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
@@ -359,7 +359,7 @@ function Home() {
                     />
                   </div>
                   <h3 className='mb-4 block font-clashDisplay text-xl font-medium leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]'>
-                    <Link href='/service-details' className='hover:text-colorViolet'>
+                    <Link href='#' className='hover:text-colorViolet'>
                       Grant Compliance Engine
                     </Link>
                   </h3>
@@ -369,7 +369,7 @@ function Home() {
                     badges before approving a single dollar.
                   </p>
                   <Link
-                    href='/service-details'
+                    href='#'
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
@@ -405,7 +405,7 @@ function Home() {
                     />
                   </div>
                   <h3 className='mb-4 block font-clashDisplay text-xl font-medium leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]'>
-                    <Link href='/service-details' className='hover:text-colorViolet'>
+                    <Link href='#' className='hover:text-colorViolet'>
                       SentinelLayer AI Monitoring
                     </Link>
                   </h3>
@@ -415,7 +415,7 @@ function Home() {
                     reports &mdash; generated while your staff sleeps.
                   </p>
                   <Link
-                    href='/service-details'
+                    href='#'
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
@@ -451,7 +451,7 @@ function Home() {
                     />
                   </div>
                   <h3 className='mb-4 block font-clashDisplay text-xl font-medium leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]'>
-                    <Link href='/service-details' className='hover:text-colorViolet'>
+                    <Link href='#' className='hover:text-colorViolet'>
                       Workflow Automation
                     </Link>
                   </h3>
@@ -461,7 +461,7 @@ function Home() {
                     team is notified automatically.
                   </p>
                   <Link
-                    href='/service-details'
+                    href='#'
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
@@ -724,8 +724,8 @@ function Home() {
                       src='/assets/img_placeholder/homepage-assets/30.png'
                       alt='BenefitsSafe virtual card with merchant lock'
                       width={320}
-                      height={564}
-                      className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
+                      height={494}
+                      className='absolute bottom-0 left-1/2 h-[494px] w-auto max-w-[320px] -translate-x-1/2 object-contain'
                     />
                   </div>
                 </div>
@@ -787,8 +787,8 @@ function Home() {
                       src='/assets/img_placeholder/homepage-assets/29.png'
                       alt='BenefitsSafe organization setup in 3 steps'
                       width={320}
-                      height={564}
-                      className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
+                      height={494}
+                      className='absolute bottom-0 left-1/2 h-[494px] w-auto max-w-[320px] -translate-x-1/2 object-contain'
                     />
                   </div>
                 </div>
@@ -846,8 +846,8 @@ function Home() {
                       src='/assets/img_placeholder/homepage-assets/23.png'
                       alt='BenefitsSafe community benefits ecosystem'
                       width={320}
-                      height={564}
-                      className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
+                      height={494}
+                      className='absolute bottom-0 left-1/2 h-[494px] w-auto max-w-[320px] -translate-x-1/2 object-contain'
                     />
                   </div>
                 </div>
@@ -880,7 +880,7 @@ function Home() {
                   </div>
                   <Link
                     rel='noopener noreferrer'
-                    href='/service-details'
+                    href='#'
                     className='button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none bg-colorViolet py-[18px] text-white after:bg-colorViolet hover:text-white'
                   >
                     Meet SentinelLayer
@@ -949,32 +949,32 @@ function Home() {
                     <div className='horizontal-slide-from-right-to-left flex w-[516px] gap-x-6'>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-slack.svg'
-                          alt='icon-flat-color-slack'
+                          src='/assets/img_placeholder/integration-icons/slack.png'
+                          alt='Slack'
                           width={100}
                           height={100}
                         />
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-github.svg'
-                          alt='icon-flat-color-github'
+                          src='/assets/img_placeholder/integration-icons/gmail.webp'
+                          alt='Gmail'
                           width={100}
                           height={100}
                         />
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-mailchamp.svg'
-                          alt='icon-flat-color-mailchamp'
+                          src='/assets/img_placeholder/integration-icons/google-calender.png'
+                          alt='Google Calendar'
                           width={100}
                           height={100}
                         />
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-zendesk.svg'
-                          alt='icon-flat-color-zendesk'
+                          src='/assets/img_placeholder/integration-icons/google-sheets.png'
+                          alt='Google Sheets'
                           width={100}
                           height={100}
                         />
@@ -985,32 +985,32 @@ function Home() {
                     <div className='horizontal-slide-from-left-to-right flex w-[516px] gap-x-6'>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-slack.svg'
-                          alt='icon-flat-color-slack'
+                          src='/assets/img_placeholder/integration-icons/slack.png'
+                          alt='Slack'
                           width={100}
                           height={100}
                         />
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-github.svg'
-                          alt='icon-flat-color-github'
+                          src='/assets/img_placeholder/integration-icons/gmail.webp'
+                          alt='Gmail'
                           width={100}
                           height={100}
                         />
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-mailchamp.svg'
-                          alt='icon-flat-color-mailchamp'
+                          src='/assets/img_placeholder/integration-icons/google-calender.png'
+                          alt='Google Calendar'
                           width={100}
                           height={100}
                         />
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img_placeholder/th-2/icon-flat-color-zendesk.svg'
-                          alt='icon-flat-color-zendesk'
+                          src='/assets/img_placeholder/integration-icons/google-sheets.png'
+                          alt='Google Sheets'
                           width={100}
                           height={100}
                         />
@@ -1109,8 +1109,8 @@ function Home() {
                   <div className='flex flex-col gap-x-16 md:flex-row lg:gap-x-28 items-center xxl:items-baseline xl:gap-x-[134px]'>
                     <div className='h-auto w-[300px] self-center overflow-hidden rounded-[10px] lg:w-[375px] xl:h-[494px] xl:w-[526px]'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/34.png'
-                        alt='nonprofit leader testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-5.jpg'
+                        alt='Program Director testimonial'
                         width={526}
                         height={494}
                         className='h-full w-full object-cover'
@@ -1142,8 +1142,8 @@ function Home() {
                   <div className='flex flex-col gap-x-16 md:flex-row lg:gap-x-28 items-center xxl:items-baseline xl:gap-x-[134px]'>
                     <div className='h-auto w-[300px] self-center overflow-hidden rounded-[10px] lg:w-[375px] xl:h-[494px] xl:w-[526px]'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/34.png'
-                        alt='nonprofit leader testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-6.jpg'
+                        alt='Case Manager testimonial'
                         width={526}
                         height={494}
                         className='h-full w-full object-cover'
@@ -1255,8 +1255,8 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/9.png'
-                        alt='nonprofit testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-1.jpg'
+                        alt='Finance Director testimonial'
                         width={60}
                         height={60}
                         className='h-full w-full object-cover object-center'
@@ -1291,8 +1291,8 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/12.png'
-                        alt='nonprofit testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-2.jpg'
+                        alt='Executive Director testimonial'
                         width={60}
                         height={60}
                         className='h-full w-full object-cover object-center'
@@ -1327,8 +1327,8 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/11.png'
-                        alt='nonprofit testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-3.jpg'
+                        alt='Operations Manager testimonial'
                         width={60}
                         height={60}
                         className='h-full w-full object-cover object-center'
@@ -1362,8 +1362,8 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/14.png'
-                        alt='nonprofit testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-4.jpg'
+                        alt='Treasurer testimonial'
                         width={60}
                         height={60}
                         className='h-full w-full object-cover object-center'
@@ -1398,8 +1398,8 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/15.png'
-                        alt='nonprofit testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-5.jpg'
+                        alt='Program Director testimonial'
                         width={60}
                         height={60}
                         className='h-full w-full object-cover object-center'
@@ -1434,8 +1434,8 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/22.png'
-                        alt='nonprofit testimonial'
+                        src='/assets/img_placeholder/homepage-assets/face-6.jpg'
+                        alt='Case Manager testimonial'
                         width={60}
                         height={60}
                         className='h-full w-full object-cover object-center'
@@ -1708,7 +1708,7 @@ function Home() {
                 >
                   {/* Blog Image */}
                   <Link
-                    href='/blog-details'
+                    href='/blog/virtual-cards-ssi'
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
@@ -1723,14 +1723,14 @@ function Home() {
                   {/* Blog Content */}
                   <div className='p-6'>
                     <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
-                      <Link href='/blog-details'>
+                      <Link href='/blog/virtual-cards-ssi'>
                         How Virtual Cards Protect SSI Beneficiaries from
                         Losing Benefits
                       </Link>
                     </h5>
                     <div className='flex items-center justify-between gap-x-4'>
                       <span>23 June 2024</span>
-                      <Link href='/blog-details' className='h-[30px] w-[30px]'>
+                      <Link href='/blog/virtual-cards-ssi' className='h-[30px] w-[30px]'>
                         <Image
                           src='/assets/img_placeholder//th-2/icon-blue-long-arrow-right.svg'
                           alt='arrow-right'
@@ -1751,7 +1751,7 @@ function Home() {
                 >
                   {/* Blog Image */}
                   <Link
-                    href='/blog-details'
+                    href='/blog/paper-check-costs'
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
@@ -1766,14 +1766,14 @@ function Home() {
                   {/* Blog Content */}
                   <div className='p-6'>
                     <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
-                      <Link href='/blog-details'>
+                      <Link href='/blog/paper-check-costs'>
                         The True Cost of Paper Check Disbursements for
                         Nonprofits
                       </Link>
                     </h5>
                     <div className='flex items-center justify-between gap-x-4'>
                       <span>20 June 2024</span>
-                      <Link href='/blog-details' className='h-[30px] w-[30px]'>
+                      <Link href='/blog/paper-check-costs' className='h-[30px] w-[30px]'>
                         <Image
                           src='/assets/img_placeholder//th-2/icon-blue-long-arrow-right.svg'
                           alt='arrow-right'
@@ -1794,7 +1794,7 @@ function Home() {
                 >
                   {/* Blog Image */}
                   <Link
-                    href='/blog-details'
+                    href='/blog/ssi-asset-limits-2025'
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
@@ -1809,14 +1809,14 @@ function Home() {
                   {/* Blog Content */}
                   <div className='p-6'>
                     <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
-                      <Link href='/blog-details'>
+                      <Link href='/blog/ssi-asset-limits-2025'>
                         What Every Case Manager Should Know About SSI
                         Asset Limits in 2025
                       </Link>
                     </h5>
                     <div className='flex items-center justify-between gap-x-4'>
                       <span>18 June 2024</span>
-                      <Link href='/blog-details' className='h-[30px] w-[30px]'>
+                      <Link href='/blog/ssi-asset-limits-2025' className='h-[30px] w-[30px]'>
                         <Image
                           src='/assets/img_placeholder//th-2/icon-blue-long-arrow-right.svg'
                           alt='arrow-right'

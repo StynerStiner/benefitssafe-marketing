@@ -55,7 +55,7 @@ function Blog() {
 															href="/blog-details"
 															className="hover:text-colorViolet"
 														>
-															Business
+															Grant Management
 														</Link>
 													</li>
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
@@ -101,7 +101,7 @@ function Blog() {
 															href="/blog-details"
 															className="hover:text-colorViolet"
 														>
-															Technology
+															Nonprofit Operations
 														</Link>
 													</li>
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
@@ -286,7 +286,7 @@ function Blog() {
 															href="/blog-details"
 															className="hover:text-colorViolet"
 														>
-															UI/UX
+															Medi-Cal
 														</Link>
 													</li>
 													<li className="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
@@ -320,7 +320,7 @@ function Blog() {
 										<ul className="flex gap-x-[15px]">
 											<li>
 												<Link
-													href="#"
+													href="/blog"
 													className="group flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white text-lg font-bold transition-all duration-300 hover:bg-black hover:text-white active:bg-black"
 												>
 													<Image
@@ -341,7 +341,7 @@ function Blog() {
 											</li>
 											<li>
 												<Link
-													href="#"
+													href="/blog"
 													className="group flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white text-lg font-bold transition-all duration-300 hover:bg-black hover:text-white active:bg-black active:text-white"
 												>
 													1
@@ -349,7 +349,7 @@ function Blog() {
 											</li>
 											<li>
 												<Link
-													href="#"
+													href="/blog"
 													className="group flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white text-lg font-bold transition-all duration-300 hover:bg-black hover:text-white"
 												>
 													2
@@ -357,7 +357,7 @@ function Blog() {
 											</li>
 											<li>
 												<Link
-													href="#"
+													href="/blog"
 													className="group flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white text-lg font-bold transition-all duration-300 hover:bg-black hover:text-white"
 												>
 													3
@@ -365,7 +365,7 @@ function Blog() {
 											</li>
 											<li>
 												<Link
-													href="#"
+													href="/blog"
 													className="group flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white text-lg font-bold transition-all duration-300 hover:bg-black hover:text-white"
 												>
 													<Image
@@ -614,7 +614,7 @@ function Blog() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Article
+													SSI Compliance
 												</Link>
 											</li>
 											<li>
@@ -622,7 +622,7 @@ function Blog() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Business
+													Grant Management
 												</Link>
 											</li>
 											<li>
@@ -638,7 +638,7 @@ function Blog() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													Technology
+													Nonprofit Operations
 												</Link>
 											</li>
 											<li>
@@ -646,7 +646,7 @@ function Blog() {
 													href="/blog-details"
 													className="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorViolet hover:text-white"
 												>
-													UI/UX
+													Medi-Cal
 												</Link>
 											</li>
 										</ul>

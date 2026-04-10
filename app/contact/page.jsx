@@ -56,7 +56,7 @@ function Contact() {
 											<li className="flex flex-col gap-y-4 text-2xl font-bold">
 												Visit us:
 												<Link
-													href="#"
+													href="/contact"
 													className="text-2xl font-normal leading-loose hover:text-colorViolet lg:text-3xl"
 												>
 													Oakland, California
