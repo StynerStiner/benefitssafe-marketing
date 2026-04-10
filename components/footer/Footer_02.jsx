@@ -264,7 +264,6 @@ const Footer_02 = () => {
                       src='/assets/img_placeholder/benefitssafe-logo/benefitssafe-logo-blue.webp'
                       alt='BenefitsSafe'
                       fill
-                      sizes="28px"
                       className='object-contain'
                     />
                   </span>

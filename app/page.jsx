@@ -719,7 +719,7 @@ function Home() {
                   className='jos order-2 mt-16 rounded-md md:order-1 md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.webp')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.png')] bg-cover bg-no-repeat">
                     <Image
                       src='/assets/img_placeholder/homepage-assets/30.webp'
                       alt='BenefitsSafe virtual card with merchant lock'
@@ -782,7 +782,7 @@ function Home() {
                   className='jos order-2 mt-16 rounded-md md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.webp')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.png')] bg-cover bg-no-repeat">
                     <Image
                       src='/assets/img_placeholder/homepage-assets/29.webp'
                       alt='BenefitsSafe organization setup in 3 steps'
@@ -841,7 +841,7 @@ function Home() {
                   className='jos order-2 mt-16 rounded-md md:order-1 md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.webp')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/homepage-assets/33.png')] bg-cover bg-no-repeat">
                     <Image
                       src='/assets/img_placeholder/homepage-assets/23.webp'
                       alt='BenefitsSafe community benefits ecosystem'
@@ -1109,7 +1109,7 @@ function Home() {
                   <div className='flex flex-col gap-x-16 md:flex-row lg:gap-x-28 items-center xxl:items-baseline xl:gap-x-[134px]'>
                     <div className='h-auto w-[300px] self-center overflow-hidden rounded-[10px] lg:w-[375px] xl:h-[494px] xl:w-[526px]'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/face-5.jpg'
+                        src='/assets/img_placeholder/homepage-assets/face-5.webp'
                         alt='Program Director testimonial'
                         width={526}
                         height={494}
@@ -1175,7 +1175,6 @@ function Home() {
                   <button
                     onClick={() => swiperRef.current.slidePrev()}
                     className='testimonial-nav-prev testimonial-nav-dir'
-                    aria-label='Previous testimonial'
                   >
                     <Image
                       src='/assets/img_placeholder/th-2/icon-black-long-arrow-left.svg'
@@ -1193,7 +1192,6 @@ function Home() {
                   <button
                     onClick={() => swiperRef.current.slideNext()}
                     className='testimonial-nav-next testimonial-nav-dir'
-                    aria-label='Next testimonial'
                   >
                     <Image
                       src='/assets/img_placeholder/th-2/icon-black-long-arrow-right.svg'
@@ -1400,7 +1398,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img_placeholder/homepage-assets/face-5.jpg'
+                        src='/assets/img_placeholder/homepage-assets/face-5.webp'
                         alt='Program Director testimonial'
                         width={60}
                         height={60}
@@ -1724,12 +1722,12 @@ function Home() {
                   {/* Blog Image */}
                   {/* Blog Content */}
                   <div className='p-6'>
-                    <h3 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
+                    <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
                       <Link href='/blog/virtual-cards-ssi'>
                         How Virtual Cards Protect SSI Beneficiaries from
                         Losing Benefits
                       </Link>
-                    </h3>
+                    </h5>
                     <div className='flex items-center justify-between gap-x-4'>
                       <span>23 June 2024</span>
                       <Link href='/blog/virtual-cards-ssi' className='h-[30px] w-[30px]'>
@@ -1767,12 +1765,12 @@ function Home() {
                   {/* Blog Image */}
                   {/* Blog Content */}
                   <div className='p-6'>
-                    <h3 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
+                    <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
                       <Link href='/blog/paper-check-costs'>
                         The True Cost of Paper Check Disbursements for
                         Nonprofits
                       </Link>
-                    </h3>
+                    </h5>
                     <div className='flex items-center justify-between gap-x-4'>
                       <span>20 June 2024</span>
                       <Link href='/blog/paper-check-costs' className='h-[30px] w-[30px]'>
@@ -1810,12 +1808,12 @@ function Home() {
                   {/* Blog Image */}
                   {/* Blog Content */}
                   <div className='p-6'>
-                    <h3 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
+                    <h5 className='mb-7 font-clashDisplay font-medium leading-[1.28] tracking-[1px] text-[28] hover:text-colorViolet'>
                       <Link href='/blog/ssi-asset-limits-2025'>
                         What Every Case Manager Should Know About SSI
                         Asset Limits in 2025
                       </Link>
-                    </h3>
+                    </h5>
                     <div className='flex items-center justify-between gap-x-4'>
                       <span>18 June 2024</span>
                       <Link href='/blog/ssi-asset-limits-2025' className='h-[30px] w-[30px]'>
@@ -1992,9 +1990,9 @@ function Home() {
                   data-jos_delay='0.1'
                 >
                   <div className='accordion-header flex items-center justify-between'>
-                    <h3 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                    <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                       What is BenefitsSafe?
-                    </h3>
+                    </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
                         src='/assets/img_placeholder/plus.svg'
@@ -2029,9 +2027,9 @@ function Home() {
                   data-jos_delay='0.1'
                 >
                   <div className='accordion-header flex items-center justify-between'>
-                    <h3 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                    <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                       How does BenefitsSafe protect beneficiaries?
-                    </h3>
+                    </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
                         src='/assets/img_placeholder/plus.svg'
@@ -2067,9 +2065,9 @@ function Home() {
                   data-jos_delay='0.1'
                 >
                   <div className='accordion-header flex items-center justify-between'>
-                    <h3 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                    <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                       Is BenefitsSafe a bank?
-                    </h3>
+                    </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
                         src='/assets/img_placeholder/plus.svg'
@@ -2103,9 +2101,9 @@ function Home() {
                   data-jos_delay='0.1'
                 >
                   <div className='accordion-header flex items-center justify-between'>
-                    <h3 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                    <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                       How much does it cost?
-                    </h3>
+                    </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
                         src='/assets/img_placeholder/plus.svg'
@@ -2140,9 +2138,9 @@ function Home() {
                   data-jos_delay='0.1'
                 >
                   <div className='accordion-header flex items-center justify-between'>
-                    <h3 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
+                    <h5 className='font-clashDisplay text-xl font-medium leading-[1.2] tracking-[1px] lg:text-[28px]'>
                       How long does setup take?
-                    </h3>
+                    </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
                         width={24}

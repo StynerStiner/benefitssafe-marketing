@@ -781,7 +781,7 @@ function Services() {
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img_placeholder/homepage-assets/face-5.jpg"
+												src="/assets/img_placeholder/homepage-assets/face-5.webp"
 												alt="Program Director testimonial"
 												width={60}
 												height={60}
