@@ -163,6 +163,42 @@ const Footer_02 = () => {
                   </ul>
                 </div>
                 {/* Footer Widget Item */}
+                {/* Footer Widget Item — Legal */}
+                <div className='flex flex-col gap-y-6'>
+                  {/* Footer Title */}
+                  <h4 className='text-[21px] font-semibold capitalize text-white'>
+                    Legal
+                  </h4>
+                  {/* Footer Title */}
+                  {/* Footer Navbar */}
+                  <ul className='flex flex-col gap-y-[10px]'>
+                    <li>
+                      <Link
+                        href='/privacy'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
+                      >
+                        Privacy Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href='/terms'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
+                      >
+                        Terms of Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href='/dpa'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
+                      >
+                        Data Processing Agreement
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+                {/* Footer Widget Item — Legal */}
                 {/* Footer Widget Item */}
                 <div className='flex flex-col gap-y-6'>
                   {/* Footer Title */}
@@ -257,7 +293,7 @@ const Footer_02 = () => {
           {/* Footer Bottom */}
           <div>
             <div className='global-container'>
-              <div className='flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left'>
+              <div className='flex flex-col items-center gap-y-6 text-center md:flex-row md:flex-wrap md:items-start md:justify-between md:gap-y-4 md:text-left'>
                 <Link href='/' className='flex items-center gap-2'>
                   <span className='relative block w-[28px] h-[28px]'>
                     <Image
@@ -269,8 +305,18 @@ const Footer_02 = () => {
                   </span>
                   <span className='font-bold text-white text-lg tracking-tight'>BenefitsSafe</span>
                 </Link>
-                <p>
-                  &copy; {new Date().getFullYear()} BenefitsSafe. All rights reserved. Built by{' '}
+                <address className='not-italic text-sm leading-relaxed text-white/80'>
+                  1969 Harrington Ave, Oakland, CA 94601
+                  <br />
+                  <a
+                    href='mailto:hello@benefitssafe.com'
+                    className='transition-all duration-300 hover:text-colorViolet'
+                  >
+                    hello@benefitssafe.com
+                  </a>
+                </address>
+                <p className='text-sm'>
+                  &copy; 2026 BenefitsSafe. All rights reserved. Built by{' '}
                   <Link
                     href='https://www.styner.dev/'
                     target='_blank'
