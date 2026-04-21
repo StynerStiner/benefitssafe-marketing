@@ -196,6 +196,22 @@ const Footer_02 = () => {
                         Data Processing Agreement
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        href='/subprocessors'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
+                      >
+                        Subprocessors
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href='/security'
+                        className='transition-all duration-300 ease-linear hover:text-colorViolet'
+                      >
+                        Security
+                      </Link>
+                    </li>
                   </ul>
                 </div>
                 {/* Footer Widget Item — Legal */}
