@@ -306,7 +306,7 @@ const Footer_02 = () => {
                   <span className='font-bold text-white text-lg tracking-tight'>BenefitsSafe</span>
                 </Link>
                 <address className='not-italic text-sm leading-relaxed text-white/80'>
-                  1969 Harrington Ave, Oakland, CA 94601
+                  Oakland, California
                   <br />
                   <a
                     href='mailto:hello@benefitssafe.com'
