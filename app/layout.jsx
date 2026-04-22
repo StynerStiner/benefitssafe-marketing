@@ -66,10 +66,46 @@ export default function RootLayout({ children }) {
         <meta property='og:image' content='https://benefitssafe.com/opengraph-image.png' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://benefitssafe.com' />
+        <meta property='og:site_name' content='BenefitsSafe' />
+        <meta property='og:locale' content='en_US' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:title' content='BenefitsSafe' />
         <meta name='twitter:description' content='Protect Benefits. Disburse Grants. Monitor Compliance.' />
         <meta name='twitter:image' content='https://benefitssafe.com/opengraph-image.png' />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'BenefitsSafe',
+              alternateName: ['Benefits Safe', 'Benefits-Safe'],
+              url: 'https://benefitssafe.com',
+              logo: 'https://benefitssafe.com/icon.png',
+              description:
+                'BenefitsSafe is a fintech compliance platform helping nonprofits disburse restricted grant funds via virtual debit cards without jeopardizing beneficiaries\' SSI, Medi-Cal, or CalFresh benefits.',
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: 'Oakland',
+                addressRegion: 'CA',
+                addressCountry: 'US',
+              },
+              areaServed: 'US',
+            }),
+          }}
+        />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: 'BenefitsSafe',
+              alternateName: 'Benefits Safe',
+              url: 'https://benefitssafe.com',
+            }),
+          }}
+        />
       </head>
       <body
         className={`${DMSans.variable} ${ClashDisplay.variable} ${Raleway.variable} ${SpaceGrotesk.variable} ${inter.variable}`}
