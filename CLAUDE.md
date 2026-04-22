@@ -1014,6 +1014,31 @@ Code like it matters. Because it does.
 
 ---
 
+## Security Standard (marketing repo)
+
+This repo maintains zero tolerance for known npm vulnerabilities in `main`. Vulnerabilities must be remediated via one of three paths:
+
+1. Upgrade to patched version
+2. Swap to a maintained alternative
+3. Document in `docs/security-exceptions.md` with specific justification (attack surface analysis, exploitability assessment, monitoring plan)
+
+"Not currently exploitable" is not sufficient justification on its own. Security hygiene compounds — we fix everything, so we're in practice when something critical lands.
+
+### Baseline requirements
+
+- `.npmrc` with `ignore-scripts=true` and `save-exact=true`
+- `package-lock.json` committed
+- Exact version pinning on all production dependencies (no `^` or `~` ranges in the `dependencies` block)
+- `npm audit` output clean, or every residual vulnerability documented in `docs/security-exceptions.md`
+
+### Before any dependency change
+
+- Run `npm audit` and confirm the delta vs. the current baseline
+- Run `npm run build` and visually verify the homepage + one other page
+- For major version bumps, read the upstream CHANGELOG/release notes and grep the codebase for affected APIs before installing
+
+---
+
 ## TWO PROJECTS — TWO REPOSITORIES
 
 This platform is TWO separate codebases deployed independently. Never mix them.
@@ -1244,3 +1269,28 @@ These documents contain the full business logic, legal framework, market analysi
 This platform protects vulnerable people's government benefits. A sloppy expense classification could cause someone to lose their SSI or Medi-Cal. A data breach could expose disability status. A compliance error could cost a nonprofit its 501(c)(3) status.
 
 Code like it matters. Because it does.
+
+---
+
+## Security Standard (marketing repo)
+
+This repo maintains zero tolerance for known npm vulnerabilities in `main`. Vulnerabilities must be remediated via one of three paths:
+
+1. Upgrade to patched version
+2. Swap to a maintained alternative
+3. Document in `docs/security-exceptions.md` with specific justification (attack surface analysis, exploitability assessment, monitoring plan)
+
+"Not currently exploitable" is not sufficient justification on its own. Security hygiene compounds — we fix everything, so we're in practice when something critical lands.
+
+### Baseline requirements
+
+- `.npmrc` with `ignore-scripts=true` and `save-exact=true`
+- `package-lock.json` committed
+- Exact version pinning on all production dependencies (no `^` or `~` ranges in the `dependencies` block)
+- `npm audit` output clean, or every residual vulnerability documented in `docs/security-exceptions.md`
+
+### Before any dependency change
+
+- Run `npm audit` and confirm the delta vs. the current baseline
+- Run `npm run build` and visually verify the homepage + one other page
+- For major version bumps, read the upstream CHANGELOG/release notes and grep the codebase for affected APIs before installing
