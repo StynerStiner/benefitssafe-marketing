@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import localFont from 'next/font/local';
 import { Inter } from 'next/font/google';
 import JOS from 'jos-animation';
+import { Analytics } from '@vercel/analytics/next';
 import ScrollToTop from '@/components/shared/ScrollToTop';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -112,6 +113,7 @@ export default function RootLayout({ children }) {
       >
         {children}
         <ScrollToTop />
+        <Analytics />
       </body>
     </html>
   );
